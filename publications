@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Publications | Dr. Bahadur Sk</title>
+
+   <meta name="description" content="Publications by Dr. Bahadur Sk – journal articles, patents, and conference presentations.">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <link rel="stylesheet" href="css/owl.theme.css">
+
+   <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- HEADER & NAV -->
+<header id="home">
+   <nav id="left-nav">
+     <div class="logo"><img src="./images/my1.jpg" alt="Bahadur Sk"></div>
+     <div class="menu" id="menu">
+       <span class="menu-global menu-top"></span>
+       <span class="menu-global menu-middle"></span>
+       <span class="menu-global menu-bottom"></span>
+     </div>
+
+     <ul id="nav" class="nav">
+       <li><a href="index.html"><i class="fa fa-home fa-fw"></i>Home</a></li>
+       <li><a href="about.html"><i class="fa fa-user fa-fw"></i>About</a></li>
+       <li><a href="research.html"><i class="fa fa-flask fa-fw"></i>Research</a></li>
+       <li class="current"><a href="publications.html"><i class="fa fa-book fa-fw"></i>Publications</a></li>
+       <li><a href="team.html"><i class="fa fa-users fa-fw"></i>Team</a></li>
+       <li><a href="gallery.html"><i class="fa fa-camera fa-fw"></i>Gallery</a></li>
+       <li><a href="contact.html"><i class="fa fa-envelope fa-fw"></i>Contact</a></li>
+     </ul>
+   </nav>
+</header>
+
+<section id="publications" class="container">
+
+  <div class="row section-head">
+    <div class="twelve columns">
+      <h1 class="section-title wow fadeInDown">Publications</h1>
+      <p>Peer-reviewed journal articles, patents, and key conferences.</p>
+    </div>
+  </div>
+
+  <!-- 2025 Publications -->
+  <div class="row">
+    <div class="twelve columns wow fadeInUp">
+      <h2>2025</h2>
+      <ul class="publ-list">
+        <li>
+          Sk, B.; Simura, R.; Fujita, K.; Hirata, S. <strong>“Synchronizing the nπ* Transition Dipole in a Benzoyl-Linked N-Fused Ring for Highly Efficient Yellow Afterglow,”</strong>
+          <em>J. Phys. Chem. Lett.</em> 2025, 16, 3904–3910.
+          <br><a href="https://doi.org/10.1021/acs.jpclett.5c00429" target="_blank">DOI:10.1021/acs.jpclett.5c00429</a>
+        </li>
+        <li>
+          Nanda, G. P.; Suraksha, R.; Sk, B.; Viswanathan, T.; Rajamalli, P. <strong>“Improving external quantum efficiency and efficiency roll-off in OLEDs,”</strong>
+          <em>J. Mater. Chem. C</em>, 2025 (just accepted).
+          <br><a href="https://doi.org/10.1039/D5TC01563D" target="_blank">DOI:10.1039/D5TC01563D</a>
+        </li>
+        <li>
+          Kashipati, R. M.; Ueda, S.; Tsuru, R.; Hayashi, K.; Simura, R.; Sk, B.; Hirata, S. <strong>“Selective lower-occupied through-bond interactions for efficient organic phosphorescence,”</strong>
+          <em>Adv. Mater.</em> 2025.
+          <br><a href="https://doi.org/10.1002/adma.202502611" target="_blank">DOI:10.1002/adma.202502611</a>
+        </li>
+        <li>
+          Ueda, S.; Fujita, K.; Sk, B.; Hirata, S. <strong>“Deciphering carbon–sulfur rotational distribution for enhanced red persistent organic phosphorescence,”</strong>
+          <em>J. Mater. Chem. C</em> 2025, 13, 2654–2660.
+          <br><a href="https://doi.org/10.1039/D4TC04829F" target="_blank">DOI:10.1039/D4TC04829F</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2016–2024 Publications -->
+  <div class="row">
+    <div class="twelve columns wow fadeInUp">
+      <h2>2016 – 2024</h2>
+      <ul class="publ-list">
+        <li>
+          Sk, B.; Hirata, S. <strong>“Symmetry-Breaking Triplet Excited State to Enhance Red Afterglow Enabling Ubiquitous Afterglow Readout,”</strong>
+          <em>Adv. Sci.</em> 2024, 11, 2308897.
+          <br><a href="https://doi.org/10.1002/advs.202308897" target="_blank">DOI:10.1002/advs.202308897</a>
+        </li>
+        <li>
+          Sk, B.; Tsuru, R.; Hayashi, K.; Hirata, S. <strong>“Selective Triplet–Singlet FRET for Bright Red Afterglow Emission,”</strong>
+          <em>Adv. Funct. Mater.</em> 2023, 33 (11), 2211604.
+          <br><a href="https://doi.org/10.1002/adfm.202211604" target="_blank">DOI:10.1002/adfm.202211604</a>
+        </li>
+        <li>
+          Badriyah, H. E.; Hayashi, K.; Sk, B.; Takano, R.; Ishida, T.; Hirata, S. <strong>“Continuous condensed triplet accumulation for irradiance-induced anticounterfeit afterglow,”</strong>
+          <em>Adv. Sci.</em> 2023, 10, 2304374.
+          <br><a href="https://doi.org/10.1002/advs.202304374" target="_blank">DOI:10.1002/advs.202304374</a>
+        </li>
+        <li>
+          Sk, B.; Hirata, S. <strong>“Förster resonance energy transfer involving the triplet state,”</strong>
+          <em>Chem. Commun.</em> 2023, 59, 6643–6659.
+          <br><a href="https://doi.org/10.1039/D3CC00748K" target="_blank">DOI:10.1039/D3CC00748K</a>
+        </li>
+        <li>… (additional items from 2023–2016 follow in the same structured list) …</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PATENTS -->
+  <div class="row">
+    <div class="twelve columns wow fadeInUp">
+      <h2>Patents</h2>
+      <ul class="publ-list">
+        <li>
+          Patra, A.; Sk, B.; Sarkar, M.; Kundu, S. <strong>“Dibenzopyridoquinoxaline Based Derivatives,”</strong>
+          Indian Patent No. 558358.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Optional: Conferences List -->
+  <div class="row">
+    <div class="twelve columns wow fadeInUp">
+      <h2>Conference Highlights</h2>
+      <ul class="publ-list">
+        <li>
+          Sk, B.; Hirata, S. (Oral presentation) <em>Annual Meeting on Photochemistry 2024</em>,
+          Kyushu University, Japan. September 2024.
+        </li>
+        <li>
+          Sk, B.; Hirata, S. (Contributed oral) <em>ICP 2023</em>, Sapporo, Japan. July 2023.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="row">
+    <div class="twelve columns">
+      <ul class="copyright">
+        <li>© 2026 Dr. Bahadur Sk</li>
+        <li>Designed & maintained by Bahadur Sk</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
