@@ -3,75 +3,97 @@
 <head>
 
    <style>
-/* === ABOUT PAGE ENHANCEMENTS === */
+/* ===== ABOUT PAGE – BACKGROUND AWARE DESIGN ===== */
 
 #about {
-  background: #f9fafc;
-  padding: 70px 0;
+  padding: 90px 0;
+  position: relative;
 }
 
-/* Main headings */
+/* Semi-transparent content card */
+#about .bio-container,
+#about .container {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 14px;
+  padding: 60px 50px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18);
+}
+
+/* Main title */
 #about h1.section-title {
-  font-size: 2.8em;
-  color: #0a2540;
-  font-weight: 700;
+  font-size: 3em;
+  color: #0b1f3a;
+  font-weight: 800;
   margin-bottom: 40px;
+  text-align: center;
 }
 
-/* Sub headings */
+/* Section headings */
 #about h2 {
-  font-size: 1.8em;
+  font-size: 1.9em;
   color: #12355b;
-  margin-bottom: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 16px;
 }
 
-/* Paragraph text */
+/* Body text */
 #about p {
-  font-size: 1.15em;
-  line-height: 1.8;
-  color: #2e2e2e;
-  margin-bottom: 18px;
+  font-size: 1.18em;
+  line-height: 1.85;
+  color: #1f2933;
+  margin-bottom: 20px;
 }
 
-/* Highlight important text */
+/* Highlight keywords */
 #about strong {
   color: #0b5ed7;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-/* Profile image styling */
+/* Profile image */
 #about img.profile-pic {
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
 }
 
-/* Timeline section spacing */
+/* Timeline */
 #about ul.timeline {
   margin-top: 40px;
 }
 
-/* Timeline text */
-#about .timeline-event-copy p,
 #about .timeline-event-copy h3 {
-  font-size: 1.05em;
-  color: #1f2933;
+  font-size: 1.25em;
+  color: #0a2540;
 }
 
-/* Contact block */
+#about .timeline-event-copy p {
+  font-size: 1.08em;
+  color: #374151;
+}
+
+/* Contact text */
 #about .contact-info p {
-  font-size: 1.05em;
+  font-size: 1.1em;
 }
 
-/* Responsive improvement */
+/* Mobile optimization */
 @media (max-width: 768px) {
-  #about h1.section-title {
-    font-size: 2.2em;
+  #about .bio-container,
+  #about .container {
+    padding: 35px 25px;
   }
+
+  #about h1.section-title {
+    font-size: 2.3em;
+  }
+
   #about p {
-    font-size: 1.05em;
+    font-size: 1.08em;
   }
 }
 </style>
+
 
    <meta charset="utf-8">
    <title>About | Dr. Bahadur Sk</title>
