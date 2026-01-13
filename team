@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Team | AURA Lab</title>
+   <meta name="description" content="Team members and lab information for AURA Lab led by Dr. Bahadur Sk">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <link rel="stylesheet" href="css/owl.theme.css">
+
+   <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- HEADER & NAV -->
+<header id="home">
+   <nav id="left-nav">
+     <div class="logo"><img src="./images/my1.jpg" alt="AURA Lab"></div>
+     <div class="menu" id="menu">
+       <span class="menu-global menu-top"></span>
+       <span class="menu-global menu-middle"></span>
+       <span class="menu-global menu-bottom"></span>
+     </div>
+     <ul id="nav" class="nav">
+       <li><a href="index.html"><i class="fa fa-home fa-fw"></i>Home</a></li>
+       <li><a href="about.html"><i class="fa fa-user fa-fw"></i>About</a></li>
+       <li><a href="research.html"><i class="fa fa-flask fa-fw"></i>Research</a></li>
+       <li><a href="publications.html"><i class="fa fa-book fa-fw"></i>Publications</a></li>
+       <li class="current"><a href="team.html"><i class="fa fa-users fa-fw"></i>Team</a></li>
+       <li><a href="gallery.html"><i class="fa fa-camera fa-fw"></i>Gallery</a></li>
+       <li><a href="contact.html"><i class="fa fa-envelope fa-fw"></i>Contact</a></li>
+     </ul>
+   </nav>
+</header>
+
+<!-- TEAM SECTION -->
+<section id="team" class="container">
+
+  <div class="row section-head">
+    <div class="twelve columns">
+      <h1 class="section-title wow fadeInDown">AURA Lab Team</h1>
+      <p>Meet the people behind the research, and connect with us for opportunities.</p>
+    </div>
+  </div>
+
+  <!-- PRINCIPAL INVESTIGATOR -->
+  <div class="row wow fadeInUp">
+    <div class="four columns">
+      <img class="profile-pic" src="./images/my1.jpg" alt="Dr. Bahadur Sk">
+    </div>
+
+    <div class="eight columns">
+      <h2>Dr. Bahadur Sk</h2>
+      <h4>Principal Investigator</h4>
+      <p>
+        Dr. Bahadur Sk is the founder and leader of the AURA Lab – Advanced Unimolecular Radiative Afterglow.
+        His research focuses on spectroscopy, photonics, and organic functional materials. Dr. Sk is an
+        Assistant Professor at the Department of Chemistry, KL Deemed to be University.
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:ba003932@gl.cc.uec.ac.jp">ba003932@gl.cc.uec.ac.jp</a><br>
+        <strong>Office:</strong> +81 042-443-5264 | <strong>Mobile:</strong> +81 080-8034-5313
+      </p>
+    </div>
+  </div>
+
+  <!-- CURRENT TEAM (placeholder) -->
+  <div class="row wow fadeInUp">
+    <div class="twelve columns">
+      <h3>Current Members</h3>
+      <p>Team member details will be updated soon.</p>
+      <p>If you are part of the AURA Lab team, please provide your profile photo and bio to include here.</p>
+    </div>
+  </div>
+
+  <!-- JOIN THE LAB -->
+  <div class="row wow fadeInUp">
+    <div class="twelve columns">
+      <h3>Join the Lab</h3>
+      <p>
+        AURA Lab is always looking for highly motivated PhD, MSc, and undergraduate students,
+        as well as postdoctoral fellows interested in spectroscopy, photonics, and materials chemistry.
+        <br><br>
+        Please contact Dr. Sk at the email above with your CV and research interests.
+      </p>
+    </div>
+  </div>
+
+  <!-- CONTACT INFORMATION -->
+  <div class="row wow fadeInUp">
+    <div class="twelve columns">
+      <h3>Lab Contact Information</h3>
+      <p>
+        <strong>Office:</strong> +81 042-443-5264<br>
+        <strong>Mobile:</strong> +81 080-8034-5313<br>
+        <strong>Email:</strong> <a href="mailto:ba003932@gl.cc.uec.ac.jp">ba003932@gl.cc.uec.ac.jp</a><br>
+        <strong>Address:</strong> Room 635, Building East 6, Department of Engineering Science,
+        University of Electro-Communications (UEC Tokyo), Chofu, Tokyo 182-8585, Japan :contentReference[oaicite:1]{index=1}
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="row">
+    <div class="twelve columns">
+      <ul class="copyright">
+        <li>© 2026 AURA Lab | Dr. Bahadur Sk</li>
+        <li>Designed & maintained by Bahadur Sk</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
