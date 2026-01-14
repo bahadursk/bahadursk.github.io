@@ -82,3 +82,60 @@
   background: linear-gradient(135deg, #0a2540, #000814);
   color: #fff;
 }
+
+
+
+
+/* ==================================================
+   GLOBAL COLOR & HEADER REFINEMENT
+================================================== */
+
+/* Body background refinement */
+body {
+  background: #0b132b;
+}
+
+/* Header overlay enhancement */
+.header-overlay {
+  background: linear-gradient(
+    rgba(11,19,43,0.85),
+    rgba(11,19,43,0.65)
+  ), url(../images/bg-blur.jpg) no-repeat center center;
+  background-size: cover !important;
+  opacity: 1;
+}
+
+/* Banner text improvement */
+header .banner-text h1 {
+  font-size: 3.8em;
+  color: #ffffff;
+}
+
+header .banner-text h3 {
+  color: #dbeafe;
+  font-size: 1.35em;
+}
+
+/* Accent color unification */
+a,
+ul#nav li.current a,
+ul#nav li a:hover {
+  color: #4cc9f0;
+}
+
+/* Navigation background */
+#left-nav {
+  background: linear-gradient(180deg, #0a2540, #020617);
+}
+
+/* Navigation current item */
+ul#nav li.current {
+  border-left: 3px solid #4cc9f0;
+}
+
+/* Section titles globally */
+.section-title {
+  background: rgba(255,255,255,0.08);
+  border-color: #4cc9f0;
+  color: #ffffff;
+}
