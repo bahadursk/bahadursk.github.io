@@ -1,56 +1,62 @@
 /* ==================================================
-   ABOUT SECTION – ACADEMIC GLASS CARD UPGRADE
+   ABOUT SECTION – PREMIUM ACADEMIC GLASS DESIGN
 ================================================== */
 
 #about {
   position: relative;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
-/* Glass background panels */
+/* Glass cards with depth */
 #about .bio-left,
 #about .main-col {
-  background: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
   color: #1f2933;
   height: auto;
   min-height: 520px;
+  border-radius: 14px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
 }
 
 /* Arrow color fix */
 #about .arrow-left {
-  border-right-color: rgba(255, 255, 255, 0.92);
+  border-right-color: rgba(255, 255, 255, 0.94);
 }
 
 /* Section title */
 #about h1.section-title {
   color: #0a2540;
   border-color: #0a2540;
-  font-size: 2.8em;
+  font-size: 3em;
   letter-spacing: 2px;
+  background: rgba(255,255,255,0.9);
+  padding: 22px 30px;
 }
 
+/* Icon below title */
 #about .section-title:after {
-  background: #f9fafb;
+  background: #ffffff;
   color: #0a2540;
 }
 
 /* Headings */
 #about h2 {
   color: #12355b;
-  font-size: 1.9em;
-  margin-bottom: 14px;
+  font-size: 2em;
+  margin-bottom: 18px;
 }
 
 #about h3 {
   color: #374151;
-  border-bottom: 2px solid #0b5ed7;
+  border-bottom: 3px solid #0b5ed7;
+  padding-bottom: 8px;
 }
 
 /* Paragraph text */
 #about p {
   color: #1f2933;
-  font-size: 1.15em;
-  line-height: 1.85;
+  font-size: 1.18em;
+  line-height: 1.9;
 }
 
 /* Highlighted keywords */
@@ -60,18 +66,19 @@
 
 /* Profile picture */
 #about .profile-pic {
-  border: 5px solid #0b5ed7;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  border: 6px solid #0b5ed7;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
 
 /* Buttons */
 #about .button {
-  background: #0b5ed7;
-  border-radius: 4px;
-  font-size: 14px;
+  background: linear-gradient(135deg, #0b5ed7, #0a2540);
+  border-radius: 6px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 #about .button:hover {
-  background: #0a2540;
+  background: linear-gradient(135deg, #0a2540, #000814);
   color: #fff;
 }
