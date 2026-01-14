@@ -1,101 +1,83 @@
-/* ==================================================
-   ABOUT SECTION – PREMIUM ACADEMIC GLASS DESIGN
-================================================== */
+/*
+====================================================
+*   Intima Layout Stylesheet (Modern Academic Upgrade)
+====================================================
+*/
 
-#about {
-  position: relative;
-  padding: 120px 0;
-}
+/* -------------------------------------------------- */
+/* 1. GLOBAL BASE STYLES */
+/* -------------------------------------------------- */
 
-/* Glass cards with depth */
-#about .bio-left,
-#about .main-col {
-  background: rgba(255, 255, 255, 0.94) !important;
-  color: #1f2933;
-  height: auto;
-  min-height: 520px;
-  border-radius: 14px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
-}
-
-/* Arrow color fix */
-#about .arrow-left {
-  border-right-color: rgba(255, 255, 255, 0.94);
-}
-
-/* Section title */
-#about h1.section-title {
-  color: #0a2540;
-  border-color: #0a2540;
-  font-size: 3em;
-  letter-spacing: 2px;
-  background: rgba(255,255,255,0.9);
-  padding: 22px 30px;
-}
-
-/* Icon below title */
-#about .section-title:after {
-  background: #ffffff;
-  color: #0a2540;
-}
-
-/* Headings */
-#about h2 {
-  color: #12355b;
-  font-size: 2em;
-  margin-bottom: 18px;
-}
-
-#about h3 {
-  color: #374151;
-  border-bottom: 3px solid #0b5ed7;
-  padding-bottom: 8px;
-}
-
-/* Paragraph text */
-#about p {
-  color: #1f2933;
-  font-size: 1.18em;
-  line-height: 1.9;
-}
-
-/* Highlighted keywords */
-#about strong {
-  color: #0b5ed7;
-}
-
-/* Profile picture */
-#about .profile-pic {
-  border: 6px solid #0b5ed7;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
-}
-
-/* Buttons */
-#about .button {
-  background: linear-gradient(135deg, #0b5ed7, #0a2540);
-  border-radius: 6px;
-  font-size: 15px;
-  letter-spacing: 1px;
-}
-
-#about .button:hover {
-  background: linear-gradient(135deg, #0a2540, #000814);
-  color: #fff;
-}
-
-
-
-
-/* ==================================================
-   GLOBAL COLOR & HEADER REFINEMENT
-================================================== */
-
-/* Body background refinement */
 body {
   background: #0b132b;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
-/* Header overlay enhancement */
+/* -------------------------------------------------- */
+/* 2. FIXED HORIZONTAL HEADER */
+/* -------------------------------------------------- */
+
+header {
+  position: relative;
+  height: auto;
+  min-height: auto;
+  background: none;
+}
+
+/* Fixed top navigation bar */
+#left-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  background: linear-gradient(90deg, #0a2540, #020617);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.35);
+}
+
+/* Horizontal nav */
+ul#nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+ul#nav li {
+  list-style: none;
+  padding: 0 18px;
+  border: none;
+}
+
+ul#nav li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  transition: color .3s ease;
+}
+
+ul#nav li a:hover,
+ul#nav li.current a {
+  color: #4cc9f0;
+}
+
+/* Remove sidebar & hamburger */
+.menu,
+.show-menu {
+  display: none !important;
+}
+
+/* -------------------------------------------------- */
+/* 3. HEADER BANNER (HOME PAGE ONLY) */
+/* -------------------------------------------------- */
+
 .header-overlay {
   background: linear-gradient(
     rgba(11,19,43,0.85),
@@ -105,7 +87,11 @@ body {
   opacity: 1;
 }
 
-/* Banner text improvement */
+header .banner {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
 header .banner-text h1 {
   font-size: 3.8em;
   color: #ffffff;
@@ -114,28 +100,184 @@ header .banner-text h1 {
 header .banner-text h3 {
   color: #dbeafe;
   font-size: 1.35em;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-/* Accent color unification */
-a,
-ul#nav li.current a,
-ul#nav li a:hover {
+/* -------------------------------------------------- */
+/* 4. SECTION SPACING (FIX EMPTY TOP SPACE) */
+/* -------------------------------------------------- */
+
+section,
+#about,
+#resume,
+#portfolio,
+#contact {
+  padding-top: 120px;
+}
+
+/* -------------------------------------------------- */
+/* 5. SECTION TITLES */
+/* -------------------------------------------------- */
+
+.section-title {
+  border: 2px solid #4cc9f0;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 3px;
+  padding: 20px;
+  text-align: center;
+  max-width: 420px;
+  margin: 0 auto 60px;
+  background: rgba(255,255,255,0.08);
+}
+
+/* -------------------------------------------------- */
+/* 6. ABOUT SECTION – PREMIUM ACADEMIC GLASS DESIGN */
+/* -------------------------------------------------- */
+
+#about {
+  background: url(../images/2.jpg) no-repeat fixed center center / cover;
+  padding: 140px 0;
+}
+
+#about .bio-left,
+#about .main-col {
+  background: rgba(255, 255, 255, 0.94);
+  color: #1f2933;
+  min-height: 520px;
+  border-radius: 14px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+}
+
+#about .arrow-left {
+  border-right-color: rgba(255,255,255,0.94);
+}
+
+#about h1.section-title {
+  color: #0a2540;
+  border-color: #0a2540;
+  font-size: 3em;
+  background: rgba(255,255,255,0.9);
+}
+
+#about h2 {
+  color: #12355b;
+  font-size: 2em;
+}
+
+#about h3 {
+  color: #374151;
+  border-bottom: 3px solid #0b5ed7;
+}
+
+#about p {
+  color: #1f2933;
+  font-size: 1.18em;
+  line-height: 1.9;
+}
+
+#about strong {
+  color: #0b5ed7;
+}
+
+#about .profile-pic {
+  border: 6px solid #0b5ed7;
+  border-radius: 50%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+/* Buttons */
+#about .button {
+  background: linear-gradient(135deg, #0b5ed7, #0a2540);
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 12px 20px;
+  color: #fff;
+}
+
+#about .button:hover {
+  background: linear-gradient(135deg, #0a2540, #000814);
+}
+
+/* -------------------------------------------------- */
+/* 7. RESUME SECTION */
+/* -------------------------------------------------- */
+
+#resume {
+  background: #ffffff;
+  padding: 120px 0;
+}
+
+#resume h1 {
+  color: #0a2540;
+  border-color: #4cc9f0;
+}
+
+/* -------------------------------------------------- */
+/* 8. PORTFOLIO */
+/* -------------------------------------------------- */
+
+#portfolio {
+  background: url(../images/3.jpg) no-repeat fixed center center / cover;
+  padding: 120px 0;
+}
+
+#portfolio h1 {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* -------------------------------------------------- */
+/* 9. CONTACT */
+/* -------------------------------------------------- */
+
+#contact {
+  background: #020617;
+  padding: 120px 0;
+  color: #cbd5e1;
+}
+
+#contact h1 {
+  color: #e5e7eb;
+  border-color: #4cc9f0;
+}
+
+/* -------------------------------------------------- */
+/* 10. FOOTER */
+/* -------------------------------------------------- */
+
+footer {
+  padding: 50px 0;
+  background: #020617;
+  color: #94a3b8;
+  text-align: center;
+}
+
+footer a {
   color: #4cc9f0;
 }
 
-/* Navigation background */
-#left-nav {
-  background: linear-gradient(180deg, #0a2540, #020617);
-}
+/* -------------------------------------------------- */
+/* 11. RESPONSIVE */
+/* -------------------------------------------------- */
 
-/* Navigation current item */
-ul#nav li.current {
-  border-left: 3px solid #4cc9f0;
-}
+@media (max-width: 768px) {
+  #left-nav {
+    padding: 0 20px;
+  }
 
-/* Section titles globally */
-.section-title {
-  background: rgba(255,255,255,0.08);
-  border-color: #4cc9f0;
-  color: #ffffff;
+  ul#nav {
+    gap: 10px;
+  }
+
+  header .banner-text h1 {
+    font-size: 2.6em;
+  }
+
+  #about .bio-left,
+  #about .main-col {
+    padding: 30px;
+  }
 }
