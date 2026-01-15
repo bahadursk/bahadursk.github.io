@@ -1,222 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AURA Lab | Bahadur Sk | IISc Bangalore</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+  <title>AURA Lab | Bahadur Sk | IISc Bangalore</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ================= NAVIGATION ================= -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="#home" class="logo">
-            <div class="logo-icon">◆</div>
-            <span>AURA Lab</span>
-        </a>
+  <!-- ================= HEADER (LOADED DYNAMICALLY) ================= -->
+  <div id="site-header"></div>
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="mobile-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-</nav>
-
-<!-- ================= HERO ================= -->
-<section id="home" class="hero">
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="hero">
     <div class="geometric-shapes">
-        <div class="geo-shape"></div>
-        <div class="geo-shape"></div>
-        <div class="geo-shape"></div>
-        <div class="geo-shape"></div>
-        <div class="geo-shape"></div>
+      <div class="geo-shape"></div>
+      <div class="geo-shape"></div>
+      <div class="geo-shape"></div>
+      <div class="geo-shape"></div>
+      <div class="geo-shape"></div>
     </div>
 
     <div class="hero-content">
-        <h1 id="hero-headline">
-            AURA Lab<br>
-            Advanced Unimolecular Radiative Afterglow
-        </h1>
+      <h1 id="hero-headline">
+        AURA Lab<br>
+        <span>Advanced Unimolecular Radiative Afterglow</span>
+      </h1>
 
-        <p id="hero-paragraph">
-            Fundamental and applied research at the interface of
-            <strong>photophysics, spectroscopy, and organic materials</strong>,
-            focusing on long-lived emission, excited-state dynamics, and next-generation photonic materials.
-        </p>
+      <p id="hero-paragraph">
+        Research at the interface of <strong>photophysics, spectroscopy,
+        and organic materials</strong>, focusing on long-lived emission,
+        excited-state dynamics, and next-generation photonic materials.
+      </p>
 
-        <a href="#research" class="cta-button">Explore Our Research</a>
+      <a href="research.html" class="cta-button">Explore Our Research</a>
     </div>
-</section>
+  </section>
 
-<!-- ================= RESEARCH ================= -->
-<section id="research" class="services">
+  <!-- ================= RESEARCH OVERVIEW ================= -->
+  <section class="services">
     <div class="section services-container">
-        <h2 class="section-title fade-in">Research Focus</h2>
+      <h2 class="section-title fade-in">Research Overview</h2>
 
-        <div class="services-layout">
-            <div class="services-content">
+      <div class="services-layout">
+        <div class="services-content">
 
-                <div class="service-details active">
-                    <h3>Long-Lived Organic Emitters</h3>
-                    <div class="service-subtitle">Persistent & Delayed Emission Materials</div>
-                    <p>
-                        Development of organic molecular and polymeric systems exhibiting
-                        thermally activated delayed fluorescence (TADF), room-temperature phosphorescence (RTP),
-                        and ultralong afterglow.
-                    </p>
-                </div>
-
-                <div class="service-details">
-                    <h3>Excited-State Photophysics</h3>
-                    <div class="service-subtitle">Charge Transfer & Energy Relaxation</div>
-                    <p>
-                        Understanding excited-state decay pathways using steady-state and time-resolved spectroscopy
-                        to unravel structure–property relationships.
-                    </p>
-                </div>
-
-                <div class="service-details">
-                    <h3>Organic & Hybrid Materials</h3>
-                    <div class="service-subtitle">Functional Molecular Design</div>
-                    <p>
-                        Rational design of donor–acceptor systems for optoelectronic
-                        and photonic applications including OLEDs and sensing platforms.
-                    </p>
-                </div>
-
+          <div class="service-details active">
+            <h3>Long-Lived Organic Emitters</h3>
+            <div class="service-subtitle">
+              RTP, TADF & Persistent Afterglow
             </div>
-        </div>
-    </div>
-</section>
+            <p>
+              Development of organic molecular and polymeric systems
+              exhibiting room-temperature phosphorescence, thermally
+              activated delayed fluorescence, and ultralong afterglow.
+            </p>
+          </div>
 
-<!-- ================= ABOUT ================= -->
-<section id="about" class="about-section">
+          <div class="service-details">
+            <h3>Excited-State Photophysics</h3>
+            <div class="service-subtitle">
+              Charge Transfer & Energy Relaxation
+            </div>
+            <p>
+              Understanding radiative and non-radiative decay processes
+              using steady-state and time-resolved spectroscopic techniques.
+            </p>
+          </div>
+
+          <div class="service-details">
+            <h3>Functional Organic Materials</h3>
+            <div class="service-subtitle">
+              Molecular Design for Photonics
+            </div>
+            <p>
+              Rational design of donor–acceptor systems for applications
+              in OLEDs, sensing, security inks, and photonic devices.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT PI ================= -->
+  <section class="about-section">
     <div class="section about fade-in">
 
-        <div class="about-content">
-            <div class="highlight">Principal Investigator</div>
+      <div class="about-content">
+        <div class="highlight">Principal Investigator</div>
 
-            <h2>Dr. Bahadur Sk</h2>
+        <h2>Dr. Bahadur Sk</h2>
 
-            <p>
-                C. V. Raman Postdoctoral Fellow at the
-                <strong>Materials Research Centre (MRC), Indian Institute of Science (IISc), Bangalore</strong>.
-            </p>
-
-            <p>
-                My research interests lie in the development of
-                <strong>organic emissive materials</strong> and understanding their
-                <strong>radiative and non-radiative decay processes</strong>
-                across different time scales.
-            </p>
-
-            <p>
-                The AURA Lab aims to develop energy-efficient, lightweight,
-                non-toxic organic photonic materials for applications in
-                lighting, displays, sensing, and security technologies.
-            </p>
-        </div>
-
-        <div class="about-visual">
-            <div class="about-image">
-                <img src="images/my1.jpg" alt="Bahadur Sk">
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- ================= TEAM ================= -->
-<section id="team" class="team">
-    <div class="section">
-        <h2 class="section-title fade-in">Our Team</h2>
-
-        <div class="team-grid">
-
-            <div class="team-member fade-in">
-                <div class="member-card">
-                    <div class="member-info">
-                        <h3>Bahadur Sk</h3>
-                        <div class="member-role">Principal Investigator</div>
-                        <p>
-                            Spectroscopy | Photophysics | Organic Materials
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="team-member fade-in">
-                <div class="member-card">
-                    <div class="member-info">
-                        <h3>Students & Collaborators</h3>
-                        <div class="member-role">Researchers</div>
-                        <p>
-                            Graduate students and collaborators working on
-                            organic emitters, photophysics, and device applications.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- ================= PUBLICATIONS ================= -->
-<section id="publications" class="testimonials">
-    <div class="section">
-        <h2 class="section-title fade-in">Publications</h2>
-
-        <p style="text-align:center; max-width:800px; margin:auto;">
-            For a complete and up-to-date list of publications, please visit
-            <a href="https://scholar.google.com/citations?hl=en&user=QRXRnK8AAAAJ" target="_blank">
-                Google Scholar
-            </a>.
+        <p>
+          C. V. Raman Postdoctoral Fellow at the
+          <strong>Materials Research Centre (MRC)</strong>,
+          Indian Institute of Science (IISc), Bangalore.
         </p>
-    </div>
-</section>
 
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="contact">
+        <p>
+          My research focuses on the development of advanced organic
+          emissive materials and understanding their excited-state
+          dynamics across multiple time scales.
+        </p>
+
+        <p>
+          The AURA Lab aims to develop energy-efficient, lightweight,
+          non-toxic photonic materials for applications in lighting,
+          displays, sensing, and security technologies.
+        </p>
+
+        <a href="about.html" class="cta-button">More About Me</a>
+      </div>
+
+      <div class="about-visual">
+        <div class="about-image">
+          <img src="images/my1.jpg" alt="Dr. Bahadur Sk">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <section class="testimonials">
     <div class="section">
-        <h2 class="section-title fade-in">Contact</h2>
+      <h2 class="section-title fade-in">Publications</h2>
 
-        <div class="contact-content">
-            <p>
-                Interested in collaboration, research opportunities, or academic discussions?
-                Feel free to get in touch.
-            </p>
+      <p style="text-align:center; max-width:900px; margin:0 auto;">
+        For a complete and up-to-date list of publications, please visit
+        my
+        <a href="https://scholar.google.com/citations?hl=en&user=QRXRnK8AAAAJ"
+           target="_blank" rel="noopener">
+          Google Scholar profile
+        </a>.
+      </p>
 
-            <p>
-                <strong>Email:</strong> bahadursk@iisc.ac.in <br>
-                <strong>Affiliation:</strong> IISc Bangalore, India
-            </p>
-        </div>
+      <div style="text-align:center; margin-top:30px;">
+        <a href="publications.html" class="cta-button">
+          View Selected Publications
+        </a>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- ================= FOOTER ================= -->
-<footer class="footer">
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="contact">
+    <div class="section">
+      <h2 class="section-title fade-in">Contact</h2>
+
+      <div class="contact-content">
+        <p>
+          Interested in collaboration, research opportunities,
+          or academic discussion?
+        </p>
+
+        <p>
+          <strong>Email:</strong> bahadursk@iisc.ac.in<br>
+          <strong>Affiliation:</strong> IISc Bangalore, India
+        </p>
+
+        <a href="contact.html" class="cta-button">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
     <div class="footer-content">
-        <div class="footer-copyright">
-            © 2026 AURA Lab | Bahadur Sk | IISc Bangalore
-        </div>
+      <div class="footer-copyright">
+        © 2026 AURA Lab | Bahadur Sk | IISc Bangalore
+      </div>
     </div>
-</footer>
+  </footer>
 
-<script src="bahadur.js"></script>
+  <!-- ================= MAIN SCRIPT ================= -->
+  <script src="bahadur.js"></script>
+
 </body>
 </html>
