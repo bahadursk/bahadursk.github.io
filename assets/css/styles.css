@@ -1248,7 +1248,80 @@ li{
     gap:24px;
     margin-bottom:2rem;
   }
+/* ==========================================================
+   HEADER IMPROVEMENTS
+   (Add at the very end of styles.css)
+========================================================== */
 
+/* Fixed Header */
+.masthead{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+}
+
+/* Prevent hero from hiding under header */
+main{
+    padding-top:110px;
+}
+
+/* Logo + Text */
+.brand{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+/* PNG Logo */
+.brand-logo{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+
+/* Large AURA Lab text */
+.brand-line-1{
+    font-size:2.2rem;
+    font-weight:700;
+    line-height:1;
+}
+
+/* Subtitle */
+.brand-line-2{
+    font-size:.88rem;
+    line-height:1.45;
+    letter-spacing:.08em;
+}
+
+/* Better header spacing */
+.masthead-inner{
+    padding:14px 0;
+}
+
+/* Mobile */
+@media (max-width:780px){
+
+    main{
+        padding-top:88px;
+    }
+
+    .brand-logo{
+        width:50px;
+        height:50px;
+    }
+
+    .brand-line-1{
+        font-size:1.55rem;
+    }
+
+    .brand-line-2{
+        font-size:.72rem;
+    }
+
+}
   .section-title{
     margin-bottom:2rem;
   }
