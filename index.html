@@ -1,29 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dr. Bahadur Sk — Research Supervisor &amp; PI, AURA Lab</title>
   <meta name="description" content="Academic profile and research group of Dr. Bahadur Sk, Assistant Professor at KL Deemed to be University. Spectroscopy, organic afterglow, and photonic materials.">
-  <link rel="icon" href="assets/img/favicon.png">
-  
-  <!-- Premium Fonts -->
+  <title>Dr. Bahadur Sk — Research Supervisor &amp; PI, AURA Lab</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <a class="skip-link" href="#main">Skip to content</a>
-  
+
+  <!-- MASTHEAD -->
   <header class="masthead">
     <div class="masthead-inner">
       <a class="brand" href="index.html">
         <span class="crest" aria-hidden="true">
-          <svg viewBox="0 0 64 64" width="44" height="44">
-            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
-            <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="1"/>
-            <text x="50%" y="57%" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="20" font-weight="600" fill="currentColor">A</text>
+          <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="19" cy="19" r="18" stroke="currentColor" stroke-width="1.5"/>
+            <text x="19" y="24" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="15" font-weight="600" fill="currentColor">A</text>
           </svg>
         </span>
         <span class="brand-text">
@@ -31,271 +29,245 @@
           <span class="brand-line-2">Computational Chemistry, AI/ML, Photonics &amp; Organic Materials</span>
         </span>
       </a>
-      <button class="menu-toggle" data-menu-btn aria-label="Toggle navigation" aria-expanded="false">
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.primary-nav').classList.toggle('open')">
         <span></span><span></span><span></span>
       </button>
-      <nav class="primary-nav" data-nav aria-label="Primary">
-        <a class="active" href="index.html">Home</a>
-        <a class="" href="about.html">Profile</a>
-        <a class="" href="research.html">Research</a>
-        <a class="" href="publications.html">Publications</a>
-        <a class="" href="team.html">Group</a>
-         <!-- <a class="" href="news.html">News</a>
-        <a class="" href="openings.html">Openings</a>
-        <a class="" href="grants.html">Grants</a> -->
-        <a class="" href="gallery.html">Gallery</a>
-        <a class="" href="contact.html">Contact</a>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">Profile</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="team.html">Group</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
 
-    <!-- Hero Section focusing first on Dr. Bahadur Sk (Supervisor & PI) -->
+    <!-- HERO -->
     <section class="supervisor-hero">
-      <div class="section-inner hero-grid">
-        
-        <div class="hero-copy">
-          <p class="hero-eyebrow">Research Supervisor &amp; Principal Investigator</p>
-          <h1 class="hero-title">Dr. Bahadur Sk</h1>
-          <p class="hero-lead">Leading molecular design, excited-state spectroscopy, and functional materials design at KL Deemed to be University.</p>
-          
-          <div class="hero-bio">
-            <p>I am an Assistant Professor in the Department of Chemistry. My academic journey combines advanced training and research across highly regarded institutes in India and Japan, including **IISER Bhopal**, **IISc Bengaluru**, the **University of Electro-Communications (Tokyo)**, and the **IACS Kolkata**.</p>
-            <p>At our research division, we mentor researchers, guide academic theses, and construct energy-efficient, lightweight, and non-toxic organic photonic platforms.</p>
-          </div>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="about.html">Read Academic Profile</a>
-            <a class="btn btn-line" href="openings.html">Join My Research Group</a>
-          </div>
-
-          <div class="hero-stats">
-            <div class="hero-stat"><strong>15+</strong><span>Scholarly Papers</span></div>
-            <div class="hero-stat"><strong>4+</strong><span>Research Stages</span></div>
-            <div class="hero-stat"><strong>2</strong><span>Key Countries</span></div>
-          </div>
-        </div>
-
-        <!-- Prominent Portrait Card Brought to the Top -->
-        <div class="portrait-card">
-          <div class="portrait-wrapper">
-            <!-- Actual image loader with a structural SVG fallback -->
-            <img src="assets/img/profile.jpg" alt="Dr. Bahadur Sk" onerror="this.style.display='none'; document.getElementById('portrait-fallback').style.display='flex';">
-            
-            <div class="portrait-placeholder" id="portrait-fallback" style="display: none;">
-              <svg viewBox="0 0 64 64" width="80" height="80">
-                <circle cx="32" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
-                <path d="M12 52c0-11 9-20 20-20s20 9 20 20" fill="none" stroke="currentColor" stroke-width="2"/>
-              </svg>
-              <span>Dr. Bahadur Sk</span>
+      <div class="section-inner">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="hero-eyebrow">Research Supervisor &amp; Principal Investigator</p>
+            <h1 class="hero-title">Dr. Bahadur Sk</h1>
+            <p class="hero-lead">Leading molecular design, excited-state spectroscopy, and functional materials design at KL Deemed to be University.</p>
+            <div class="hero-bio">
+              <p>I am an Assistant Professor in the Department of Chemistry. My academic journey combines advanced training and research across highly regarded institutes in India and Japan, including <strong>IISER Bhopal</strong>, <strong>IISc Bengaluru</strong>, the <strong>University of Electro-Communications (Tokyo)</strong>, and the <strong>IACS Kolkata</strong>.</p>
+              <p>At our research division, we mentor researchers, guide academic theses, and construct energy-efficient, lightweight, and non-toxic organic photonic platforms.</p>
+            </div>
+            <div class="hero-actions">
+              <a href="about.html" class="btn btn-primary">Read Academic Profile</a>
+              <a href="openings.html" class="btn btn-line">Join My Research Group</a>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <strong>15+</strong>
+                <span>Scholarly Papers</span>
+              </div>
+              <div class="hero-stat">
+                <strong>250+</strong>
+                <span>Total Citations</span>
+              </div>
+              <div class="hero-stat">
+                <strong>10+</strong>
+                <span>Years Research</span>
+              </div>
             </div>
           </div>
-          
-          <div class="portrait-caption">
-            <span class="portrait-role">Assistant Professor (Chemistry)</span>
-            <span class="portrait-affiliation">Department of Chemistry, KL Deemed to be University</span>
-            <ul class="portrait-meta-links">
-              <li><a href="https://orcid.org/0000-0002-7098-5429" target="_blank" rel="noreferrer">ORCID Profile</a></li>
-              <li><a href="https://scholar.google.com/citations?user=QRXRnK8AAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a></li>
-              <li><a href="https://bahadursk.github.io/resume.pdf" target="_blank" rel="noreferrer">Curriculum Vitae</a></li>
-            </ul>
+          <div>
+            <div class="portrait-card">
+              <div class="portrait-wrapper">
+                <img src="assets/img/profile.jpg" alt="Dr. Bahadur Sk" loading="eager">
+              </div>
+              <div class="portrait-caption">
+                <span class="portrait-role">Principal Investigator</span>
+                <span class="portrait-affiliation">Assistant Professor (Chemistry)<br>Department of Chemistry, KL Deemed to be University</span>
+                <ul class="portrait-meta-links">
+                  <li><a href="https://orcid.org/0000-0002-7098-5429" target="_blank" rel="noopener">ORCID Profile</a></li>
+                  <li><a href="https://scholar.google.com/citations?user=QRXRnK8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+                  <li><a href="resume.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- Lab-focused Section: Introducing AURA Lab after the PI -->
+    <!-- LAB OVERVIEW -->
     <section class="lab-overview">
       <div class="section-inner">
-        <p class="section-eyebrow">The Research Group</p>
-        <h2 class="section-title">AURA Lab &mdash; Advanced Unimolecular Radiative Afterglow</h2>
-        
         <div class="lab-grid">
           <div class="lab-intro">
+            <p class="section-eyebrow">The Research Group</p>
+            <h2 class="section-title">AURA Lab — Advanced Unimolecular Radiative Afterglow</h2>
             <h3>Bridging Molecular Mechanisms with Optoelectronic Performance</h3>
             <p>Our scientific curiosity begins with exploring basic excited-state processes to explain persistent, long-lived luminescence in synthetic organic platforms. Under my supervision, the AURA Lab translates those fundamental spectroscopic concepts into lightweight, non-toxic organic emitters optimized for high-contrast bioimaging, advanced optical storage, displays, and security applications.</p>
-            <div style="margin-top: 1.5rem;">
-              <a class="btn btn-line" href="research.html">Explore our Research Lines &rsaquo;</a>
+            <a href="research.html" class="btn btn-ghost">Explore our Research Lines ›</a>
+          </div>
+          <div class="foot-block">
+            <div class="pillar-grid">
+              <div class="pillar">
+                <p class="pillar-no">01</p>
+                <h4>Organic Afterglow &amp; Phosphorescence</h4>
+                <p>Developing high-resolution persistent long-wavelength emitters and anti-counterfeiting platforms through mechanism-driven chemical design.</p>
+              </div>
+              <div class="pillar">
+                <p class="pillar-no">02</p>
+                <h4>Excited-State Spectroscopy</h4>
+                <p>Analyzing radiative pathways, donor-acceptor interactions, spin-flipping mechanisms, and time-resolved decay characteristics.</p>
+              </div>
+              <div class="pillar">
+                <p class="pillar-no">03</p>
+                <h4>OLED &amp; TADF Technologies</h4>
+                <p>Optimizing external quantum efficiency (EQE) and limiting roll-offs in Thermally Activated Delayed Fluorescence devices.</p>
+              </div>
+              <div class="pillar">
+                <p class="pillar-no">04</p>
+                <h4>Functional Materials</h4>
+                <p>Designing flexible, environmentally non-toxic polymers and materials for robust lighting, sensing, and security readout.</p>
+              </div>
             </div>
           </div>
-          
-          <div class="pillar-grid">
-            <article class="pillar">
-              <span class="pillar-no">01</span>
-              <h4>Organic Afterglow &amp; Phosphorescence</h4>
-              <p>Developing high-resolution persistent long-wavelength emitters and anti-counterfeiting platforms through mechanism-driven chemical design.</p>
-            </article>
-            <article class="pillar">
-              <span class="pillar-no">02</span>
-              <h4>Excited-State Spectroscopy</h4>
-              <p>Analyzing radiative pathways, donor-acceptor interactions, spin-flipping mechanisms, and time-resolved decay characteristics.</p>
-            </article>
-            <article class="pillar">
-              <span class="pillar-no">03</span>
-              <h4>OLED &amp; TADF Technologies</h4>
-              <p>Optimizing external quantum efficiency (EQE) and limiting roll-offs in Thermally Activated Delayed Fluorescence devices.</p>
-            </article>
-            <article class="pillar">
-              <span class="pillar-no">04</span>
-              <h4>Functional Materials</h4>
-              <p>Designing flexible, environmentally non-toxic polymers and materials for robust lighting, sensing, and security readout.</p>
-            </article>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- News & Activities Timeline -->
+    <!-- NEWS STRIP -->
     <section class="news-strip">
-      <div class="section-inner news-grid">
-        <div class="news-head">
-          <p class="section-eyebrow">Group News &amp; Travel</p>
-          <h2 class="section-title">Recent updates from the supervisor</h2>
-          <a class="text-link" href="news.html">All news archives &rsaquo;</a>
+      <div class="section-inner">
+        <div class="news-grid">
+          <div class="news-head">
+            <p class="section-eyebrow">Group News &amp; Travel</p>
+            <h2 class="section-title">Recent updates from the supervisor</h2>
+            <a href="news.html" class="text-link">All news archives ›</a>
+          </div>
+          <ul class="news-list">
+            <li>
+              <span class="news-date">Sep 2025</span>
+              <p>Joined the Department of Chemistry at KL Deemed to be University as Assistant Professor and officially established the AURA Lab.</p>
+            </li>
+            <li>
+              <span class="news-date">Apr 2025</span>
+              <p>New paper published in <em>J. Phys. Chem. Lett.</em> on synchronizing the nπ* transition dipole in a benzoyl-linked N-fused ring for highly efficient yellow afterglow.</p>
+            </li>
+            <li>
+              <span class="news-date">Mar 2025</span>
+              <p>New <em>Adv. Mater.</em> paper accepted on selective lower-occupied through-bond interactions for high-resolution long-wavelength afterglow.</p>
+            </li>
+            <li>
+              <span class="news-date">Feb 2025</span>
+              <p>Returned to India as a Research Associate at the Indian Association for the Cultivation of Science (IACS), Kolkata.</p>
+            </li>
+            <li>
+              <span class="news-date">Apr 2024</span>
+              <p>Selected as a prestigious JST FOREST Fellow at the University of Electro-Communications, Tokyo.</p>
+            </li>
+          </ul>
         </div>
-        <ul class="news-list">
-          <li>
-            <span class="news-date">Sep 2025</span>
-            <p>Joined the Department of Chemistry at KL Deemed to be University as Assistant Professor and officially established the AURA Lab.</p>
-          </li>
-          <li>
-            <span class="news-date">Apr 2025</span>
-            <p>New paper published in <em>J. Phys. Chem. Lett.</em> on synchronizing the n&pi;* transition dipole in a benzoyl-linked N-fused ring for highly efficient yellow afterglow.</p>
-          </li>
-          <li>
-            <span class="news-date">2025</span>
-            <p>New <em>Adv. Mater.</em> paper accepted on selective lower-occupied through-bond interactions for high-resolution long-wavelength afterglow.</p>
-          </li>
-          <li>
-            <span class="news-date">Feb 2025</span>
-            <p>Returned to India as a Research Associate at the Indian Association for the Cultivation of Science (IACS), Kolkata.</p>
-          </li>
-          <li>
-            <span class="news-date">Apr 2024</span>
-            <p>Selected as a prestigious JST FOREST Fellow at the University of Electro-Communications, Tokyo.</p>
-          </li>
-        </ul>
       </div>
     </section>
 
-    <!-- Selected Peer-Reviewed Highlights -->
+    <!-- PAPERS STRIP -->
     <section class="papers-strip">
       <div class="section-inner">
         <div class="section-head-row">
-          <div>
-            <p class="section-eyebrow">Highlighted Records</p>
-            <h2 class="section-title">Selected scholarly publications under my supervision &amp; stages</h2>
-          </div>
-          <a class="text-link" href="publications.html">All publications &rsaquo;</a>
+          <p class="section-eyebrow">Highlighted Records</p>
+          <h2 class="section-title">Selected scholarly publications under my supervision &amp; stages</h2>
+          <a href="publications.html" class="text-link">All publications ›</a>
         </div>
         <div class="paper-grid">
-          <article class="paper">
+          <div class="paper">
             <p class="paper-year">2025</p>
             <h3 class="paper-title">Synchronizing the nπ* Transition Dipole in a Benzoyl-Linked N-Fused Ring for Highly Efficient Yellow Afterglow</h3>
             <p class="paper-authors">Sk, B.; Simura, R.; Fujita, K.; Hirata, S.</p>
             <p class="paper-journal">J. Phys. Chem. Lett. 2025, 16, 3904–3910</p>
-            <a class="paper-link" href="https://doi.org/10.1021/acs.jpclett.5c00429" target="_blank" rel="noreferrer">View article &rsaquo;</a>
-          </article>
-          <article class="paper">
+            <a href="https://doi.org/10.1021/acs.jpclett.5c00429" class="paper-link" target="_blank" rel="noopener">View article ›</a>
+          </div>
+          <div class="paper">
             <p class="paper-year">2025</p>
             <h3 class="paper-title">Improving external quantum efficiency and efficiency roll-off in OLEDs: A study on donor linkage and acceptor nitrogen atom position optimization</h3>
             <p class="paper-authors">Nanda, G. P.; Suraksha, R.; Sk, B.; Viswanathan, T.; Rajamalli, P.</p>
             <p class="paper-journal">J. Mater. Chem. C, 2025 (just accepted)</p>
-            <a class="paper-link" href="https://doi.org/10.1039/D5TC01563D" target="_blank" rel="noreferrer">View article &rsaquo;</a>
-          </article>
-          <article class="paper">
+            <a href="https://doi.org/10.1039/D5TC01563D" class="paper-link" target="_blank" rel="noopener">View article ›</a>
+          </div>
+          <div class="paper">
             <p class="paper-year">2024</p>
             <h3 class="paper-title">Symmetry-Breaking Triplet Excited State to Enhance Red Afterglow Enabling Ubiquitous Afterglow Readout</h3>
             <p class="paper-authors">Sk, B.; Hirata, S.</p>
             <p class="paper-journal">Adv. Sci. 2024, 11, 2308897</p>
-            <a class="paper-link" href="https://doi.org/10.1002/advs.202308897" target="_blank" rel="noreferrer">View article &rsaquo;</a>
-          </article>
+            <a href="https://doi.org/10.1002/advs.202308897" class="paper-link" target="_blank" rel="noopener">View article ›</a>
+          </div>
+          <div class="paper">
+            <p class="paper-year">2023</p>
+            <h3 class="paper-title">Selective Triplet–Singlet Förster-Resonance Energy Transfer for Bright Red Afterglow Emission</h3>
+            <p class="paper-authors">Sk, B.; Tsuru, R.; Hayashi, K.; Hirata, S.</p>
+            <p class="paper-journal">Adv. Funct. Mater. 2023, 33(11), 2211604</p>
+            <a href="https://doi.org/10.1002/adfm.202211604" class="paper-link" target="_blank" rel="noopener">View article ›</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Call to Action for Aspiring Researchers -->
+    <!-- CTA -->
     <section class="cta">
-      <div class="section-inner cta-inner">
-        <div>
-          <p class="section-eyebrow" style="color: var(--color-accent-light);">Join the Team</p>
-          <h2 class="section-title">Are you looking for an academic research supervisor?</h2>
-          <p>I am looking for motivated PhD candidates, Master's thesis students, and postdoctoral fellows who want to work on organic synthesis, photophysics, and device fabrication. If interested, send me your CV and research statement.</p>
-        </div>
-        <div class="cta-actions">
-          <a class="btn btn-primary" href="openings.html">View Positions</a>
-          <a class="btn btn-line" href="contact.html">Get in touch</a>
+      <div class="section-inner">
+        <div class="cta-inner">
+          <div>
+            <p class="section-eyebrow">Join the Team</p>
+            <h2 class="section-title">Are you looking for an academic research supervisor?</h2>
+            <p class="lede">I am looking for motivated PhD candidates, Master's thesis students, and postdoctoral fellows who want to work on organic synthesis, photophysics, and device fabrication. If interested, send me your CV and research statement.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="openings.html" class="btn btn-primary">View Positions</a>
+            <a href="contact.html" class="btn btn-line">Get in touch</a>
+          </div>
         </div>
       </div>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-foot">
     <div class="foot-inner">
-      <div class="foot-block">
+      <div>
         <p class="foot-eyebrow">AURA Lab</p>
         <p class="foot-name">Dr. Bahadur Sk</p>
-        <p class="foot-meta">Assistant Professor &middot; Department of Chemistry<br>KL University (Deemed to be University), Vaddeswaram, Andhra Pradesh 522302, India</p>
+        <p class="foot-meta">Assistant Professor · Department of Chemistry</p>
+        <p class="foot-meta">KL University (Deemed to be University), Vaddeswaram, Andhra Pradesh 522302, India</p>
         <p class="foot-meta"><a href="mailto:bahadursk@kluniversity.in">bahadursk@kluniversity.in</a></p>
       </div>
-      <div class="foot-block">
+      <div>
         <p class="foot-eyebrow">Explore</p>
         <ul class="foot-links">
           <li><a href="about.html">Profile</a></li>
           <li><a href="research.html">Research</a></li>
           <li><a href="publications.html">Publications</a></li>
-          <li><a href="news.html">News</a></li>
           <li><a href="team.html">Group</a></li>
-          <li><a href="openings.html">Openings</a></li>
-          <li><a href="grants.html">Grants</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-      <div class="foot-block">
+      <div>
         <p class="foot-eyebrow">Profiles</p>
         <ul class="foot-links">
-          <li><a target="_blank" rel="noreferrer" href="https://scholar.google.com/citations?user=QRXRnK8AAAAJ&amp;hl=en">Google Scholar</a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://orcid.org/0000-0002-7098-5429">ORCID</a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bahadursk/">LinkedIn</a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://github.com/bahadursk">GitHub</a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://twitter.com/Bahadursk">X / Twitter</a></li>
-          <li><a target="_blank" rel="noreferrer" href="https://bahadursk.github.io/resume.pdf">Curriculum Vitae</a></li>
+          <li><a href="https://scholar.google.com/citations?user=QRXRnK8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0002-7098-5429" target="_blank" rel="noopener">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/bahadursk/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/bahadursk" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://twitter.com/Bahadursk" target="_blank" rel="noopener">X / Twitter</a></li>
+          <li><a href="resume.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></li>
         </ul>
       </div>
     </div>
     <div class="foot-rule">
-      <p>&copy; AURA Lab &middot; Dr. Bahadur Sk. All academic content reflects publicly listed scholarly records.</p>
+      <p>© AURA Lab · Dr. Bahadur Sk. All academic content reflects publicly listed scholarly records.</p>
     </div>
   </footer>
 
-  <script>
-    // Responsive Navigation Toggle
-    document.addEventListener('DOMContentLoaded', () => {
-      const menuBtn = document.querySelector('[data-menu-btn]');
-      const navMenu = document.querySelector('[data-nav]');
-
-      if (menuBtn && navMenu) {
-        menuBtn.addEventListener('click', () => {
-          const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
-          menuBtn.setAttribute('aria-expanded', !expanded);
-          navMenu.classList.toggle('active');
-          
-          const spans = menuBtn.querySelectorAll('span');
-          if (!expanded) {
-            spans[0].style.transform = 'translateY(8px) rotate(45deg)';
-            spans[1].style.opacity = '0';
-            spans[2].style.transform = 'translateY(-8px) rotate(-45deg)';
-          } else {
-            spans[0].style.transform = 'none';
-            spans[1].style.opacity = '1';
-            spans[2].style.transform = 'none';
-          }
-        });
-      }
-    });
-  </script>
 </body>
 </html>
