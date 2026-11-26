@@ -696,3 +696,6 @@ ul,ol{margin:0;padding-left:1.2rem}
   .cv-logos{flex-direction:row;justify-content:flex-start;order:-1}
   .cv-logos img{max-width:160px;max-height:64px}
 }
+.course-scheme{margin:-.4rem -.5rem 1rem;border-radius:14px;overflow:hidden}
+.course-scheme img{display:block;width:100%;height:auto}
+.prose-main p.lede strong{font-weight:700}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="t d">
+<title id="t">Computational Thinking and Data Science for Chemists</title><desc id="d">A chemical question is turned into a data table, processed with a few lines of basic Python, and visualised as a graph with a fitted trend.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e0ecff"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/></marker>
+</defs>
+<style>text{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;fill:#1e1040}.s{font-size:13px}.xs{font-size:11px;fill:#5b4a7a}.b{font-weight:700}.c{fill:#2563eb}.m{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10.5px;fill:#1e1040}.w{fill:#fff}.k{font-size:8.6px}.t{font-size:9px}</style>
+<rect width="400" height="250" rx="18" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="399" height="249" rx="18" fill="none" stroke="#2563eb" stroke-opacity=".22"/>
+
+<text x="20" y="30" class="s b c">From a chemical question to a graph</text>
+<g transform="translate(30,82)"><path d="M14,0 h16 v22 l16,34 a6,6 0 0 1 -5,9 h-38 a6,6 0 0 1 -5,-9 l16,-34 z" fill="#fff" stroke="#2563eb" stroke-width="2"/><path d="M4,50 l40,0 l4,8 a4,4 0 0 1 -4,6 h-40 a4,4 0 0 1 -4,-6 z" fill="#2563eb" fill-opacity=".25"/><text x="22" y="-8" text-anchor="middle" class="s b c">?</text></g>
+<text x="52" y="168" text-anchor="middle" class="xs">question</text>
+<line x1="84" y1="120" x2="102" y2="120" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="108" y="86" width="60" height="70" rx="10" fill="#fff" stroke="#2563eb" stroke-width="1.8"/><line x1="108" y1="100" x2="168" y2="100" stroke="#2563eb" stroke-opacity=".35"/><line x1="108" y1="114" x2="168" y2="114" stroke="#2563eb" stroke-opacity=".35"/><line x1="108" y1="128" x2="168" y2="128" stroke="#2563eb" stroke-opacity=".35"/><line x1="108" y1="142" x2="168" y2="142" stroke="#2563eb" stroke-opacity=".35"/><line x1="137" y1="86" x2="137" y2="156" stroke="#2563eb" stroke-opacity=".35"/><text x="122.5" y="97" text-anchor="middle" class="m t">c</text><text x="153" y="97" text-anchor="middle" class="m t">pH</text><text x="122.5" y="111" text-anchor="middle" class="m t">0.1</text><text x="153" y="111" text-anchor="middle" class="m t">1.0</text><text x="122.5" y="125" text-anchor="middle" class="m t">0.01</text><text x="153" y="125" text-anchor="middle" class="m t">2.0</text><text x="122.5" y="139" text-anchor="middle" class="m t">1e-3</text><text x="153" y="139" text-anchor="middle" class="m t">3.0</text><text x="122.5" y="153" text-anchor="middle" class="m t">1e-4</text><text x="153" y="153" text-anchor="middle" class="m t">4.0</text>
+<text x="138" y="168" text-anchor="middle" class="xs">data</text>
+<line x1="172" y1="120" x2="190" y2="120" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="194" y="88" width="88" height="66" rx="10" fill="#1e1b4b"/>
+<text x="202" y="106" class="m k" style="fill:#a5b4fc">c = 0.01</text>
+<text x="202" y="122" class="m k" style="fill:#fff">pH = -log10(c)</text>
+<text x="202" y="138" class="m k" style="fill:#fde68a">print(pH)</text>
+<text x="238" y="168" text-anchor="middle" class="xs">basic Python</text>
+<line x1="284" y1="120" x2="292" y2="120" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="295" y1="160" x2="378" y2="160" stroke="#1e1040"/><line x1="295" y1="160" x2="295" y2="80" stroke="#1e1040"/><circle cx="305" cy="150" r="3.5" fill="#2563eb"/><circle cx="320" cy="136" r="3.5" fill="#2563eb"/><circle cx="335" cy="118" r="3.5" fill="#2563eb"/><circle cx="350" cy="104" r="3.5" fill="#2563eb"/><circle cx="365" cy="90" r="3.5" fill="#2563eb"/><line x1="298" y1="157" x2="372" y2="85" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="336" y="176" text-anchor="middle" class="xs">graph &amp; trend</text>
+<text x="200" y="214" text-anchor="middle" class="s b">decompose · tabulate · compute · visualise</text>
+<text x="200" y="234" text-anchor="middle" class="xs">M.Sc. Semester I · chemistry first, minimal code</text>
+</svg>

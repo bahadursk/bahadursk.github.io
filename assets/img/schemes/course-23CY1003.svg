@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="t d">
+<title id="t">Computational Chemistry</title><desc id="d">A molecule is built, its geometry optimised until the energy converges, its frontier orbitals HOMO and LUMO computed with quantum chemistry, and its absorption spectrum predicted.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dff7fb"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#0891b2"/></marker>
+</defs>
+<style>text{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;fill:#1e1040}.s{font-size:13px}.xs{font-size:11px;fill:#5b4a7a}.b{font-weight:700}.c{fill:#0891b2}.m{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10.5px;fill:#1e1040}.w{fill:#fff}</style>
+<rect width="400" height="250" rx="18" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="399" height="249" rx="18" fill="none" stroke="#0891b2" stroke-opacity=".22"/>
+
+<text x="20" y="30" class="s b c">Quantum chemistry on a laptop</text>
+<text x="380" y="30" text-anchor="end" class="s b" style="font-family:Georgia,serif;font-style:italic">Ĥψ = Eψ</text>
+<polygon points="71.1,129.0 52.0,140.0 32.9,129.0 32.9,107.0 52.0,96.0 71.1,107.0" fill="#fff" stroke="#0891b2" stroke-width="2"/>
+<circle cx="52" cy="96" r="3" fill="#0891b2"/><circle cx="71" cy="129" r="3" fill="#0891b2"/><circle cx="33" cy="129" r="3" fill="#0891b2"/>
+<text x="52" y="164" text-anchor="middle" class="xs">build</text>
+<line x1="80" y1="118" x2="96" y2="118" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="104" y1="150" x2="168" y2="150" stroke="#1e1040"/><line x1="104" y1="150" x2="104" y2="84" stroke="#1e1040"/>
+<path d="M108,88 C120,130 130,140 145,144 S160,146 166,146" fill="none" stroke="#0891b2" stroke-width="2.2"/>
+<text x="100" y="92" text-anchor="end" class="xs">E</text>
+<text x="136" y="164" text-anchor="middle" class="xs">optimise</text>
+<line x1="172" y1="118" x2="188" y2="118" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="196" y1="140" x2="236" y2="140" stroke="#1e1040" stroke-width="2.5"/><text x="246" y="144" class="xs b">HOMO</text>
+<line x1="196" y1="92" x2="236" y2="92" stroke="#0891b2" stroke-width="2.5"/><text x="246" y="96" class="xs b c">LUMO</text>
+<line x1="216" y1="134" x2="216" y2="98" stroke="#f59e0b" stroke-width="2" marker-end="url(#ar)"/>
+<text x="230" y="164" text-anchor="middle" class="xs">orbitals</text>
+<line x1="282" y1="118" x2="298" y2="118" stroke="#0891b2" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="304" y1="150" x2="384" y2="150" stroke="#1e1040"/>
+<path d="M306,148 C330,148 334,92 344,92 C354,92 358,148 382,148" fill="none" stroke="#0891b2" stroke-width="2.4"/>
+<text x="344" y="164" text-anchor="middle" class="xs">UV–vis spectrum</text>
+<text x="200" y="206" text-anchor="middle" class="s b">build · optimise · compute · interpret</text>
+<text x="200" y="230" text-anchor="middle" class="xs">B.Tech. &amp; M.Sc. · molecular modelling and quantum-chemical calculation</text>
+</svg>
