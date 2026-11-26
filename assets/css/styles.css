@@ -100,9 +100,9 @@ ul,ol{margin:0;padding-left:1.2rem}
 }
 .primary-nav{display:flex;align-items:center;gap:.1rem;flex-wrap:wrap}
 .primary-nav a{
-  font-family:'Inter',sans-serif;font-size:.93rem;font-weight:500;
+  font-family:'Inter',sans-serif;font-size:.92rem;font-weight:500;
   color:var(--ink-soft);letter-spacing:.01em;
-  padding:.6rem .85rem;border-radius:999px;border-bottom:2px solid transparent;
+  padding:.6rem .72rem;border-radius:999px;border-bottom:2px solid transparent;
   transition:color .18s ease, border-color .18s ease, background .18s ease;
 }
 .primary-nav a:hover{
@@ -410,11 +410,13 @@ ul,ol{margin:0;padding-left:1.2rem}
 
 /* ── TIMELINE ─────────────────────────────────────────────── */
 .timeline-list{list-style:none;padding:0;margin:1.5rem 0 0;border-top:1px solid rgba(167,139,250,.18)}
-.tl-item{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:1.5rem 0;border-bottom:1px solid rgba(167,139,250,.18)}
+.tl-item{display:grid;grid-template-columns:200px 1fr 150px;gap:32px;align-items:start;padding:1.5rem 0;border-bottom:1px solid rgba(167,139,250,.18)}
 .tl-period{font-family:'Inter',sans-serif;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);font-weight:600;margin:.25rem 0 0}
 .tl-body h3{font-family:'Cormorant Garamond',serif;font-size:1.55rem;margin:0 0 .25rem;color:var(--ink)}
 .tl-place{font-style:italic;color:var(--muted);margin:0 0 .4rem}
 .tl-body p:last-child{color:var(--ink-soft);margin:0}
+.tl-logo{margin:0;justify-self:end;display:flex;align-items:center;justify-content:center;width:150px;height:84px;padding:10px 14px;background:#fff;border-radius:14px;border:1px solid rgba(167,139,250,.22);box-shadow:0 8px 22px -16px rgba(76,29,149,.4)}
+.tl-logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
 
 /* ── INFO STRIP ───────────────────────────────────────────── */
 .info-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
@@ -428,6 +430,8 @@ ul,ol{margin:0;padding-left:1.2rem}
 .theme{border-top:2px solid rgba(124,58,237,.18);padding-top:1.4rem}
 .theme h3{font-family:'Cormorant Garamond',serif;font-size:1.55rem;margin:0 0 .55rem;line-height:1.2;color:var(--ink)}
 .theme p{color:var(--ink-soft);font-size:1rem}
+.theme-scheme{margin:0 0 1.1rem;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(76,29,149,.35)}
+.theme-scheme img{display:block;width:100%;height:auto}
 
 /* ── CAPABILITIES ─────────────────────────────────────────── */
 .cap-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:60px}
@@ -589,6 +593,9 @@ ul,ol{margin:0;padding-left:1.2rem}
 .accent-soft{color:#7c3aed}
 
 /* ── RESPONSIVE ───────────────────────────────────────────── */
+@media (min-width:781px){
+  .primary-nav a{padding:.55rem .55rem;font-size:.88rem}
+}
 @media (max-width:1080px){
   .pillar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .themes-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -631,6 +638,7 @@ ul,ol{margin:0;padding-left:1.2rem}
   .news-list li{gap:6px}
   .year-marker{position:static;font-size:2rem}
   .tl-item{grid-template-columns:1fr;gap:8px}
+  .tl-logo{justify-self:start;width:120px;height:68px;order:-1}
   .member-card,.member-card-pi{grid-template-columns:1fr}
   .gallery-wall{column-count:1}
   .cta-actions{justify-content:flex-start}
@@ -654,3 +662,20 @@ ul,ol{margin:0;padding-left:1.2rem}
   .page-hero-figure figcaption{position:static;margin-top:12px}
 }
 
+
+/* ── TEACHING ─────────────────────────────────────────────── */
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:1rem}
+.course-card{background:rgba(255,255,255,.7);border:1px solid rgba(167,139,250,.22);border-radius:18px;padding:1.4rem 1.5rem;box-shadow:0 10px 30px -22px rgba(76,29,149,.4)}
+.course-card h3{font-family:'Cormorant Garamond',serif;font-size:1.5rem;line-height:1.2;margin:.2rem 0 .5rem;color:var(--ink)}
+.course-code{font-family:'Inter',sans-serif;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);font-weight:600;margin:0}
+.course-meta{font-family:'Inter',sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .8rem}
+.course-card ul{margin:0;padding-left:1.1rem;color:var(--ink-soft)}
+.course-card li{margin:.35rem 0}
+.book-grid{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:56px;align-items:center}
+.book-cover{margin:0}
+.book-cover img{display:block;width:100%;height:auto;border-radius:10px;box-shadow:0 24px 48px -24px rgba(30,16,64,.55)}
+.book-strip .book-grid{grid-template-columns:minmax(0,220px) minmax(0,1fr)}
+@media (max-width:1080px){.course-grid{grid-template-columns:1fr}}
+@media (max-width:780px){.book-grid,.book-strip .book-grid{grid-template-columns:1fr;gap:28px}.book-cover{max-width:240px}}
+.team-grid .member-card{grid-template-columns:150px minmax(0,1fr);gap:20px}
+.team-grid .member-card h3{font-size:1.4rem;overflow-wrap:anywhere}

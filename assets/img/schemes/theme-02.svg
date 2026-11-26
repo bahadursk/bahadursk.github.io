@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="t d">
+<title id="t">Quantum chemical calculations for optoelectronic materials</title><desc id="d">Donor and acceptor fragments with spatially separated HOMO and LUMO, and the computed S0, S1 and T1 energy levels with spin–orbit coupling between S1 and T1.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e0ecff"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/></marker>
+</defs>
+<style>text{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;fill:#1e1040}.s{font-size:13px}.xs{font-size:11.5px;fill:#5b4a7a}.b{font-weight:700}.c{fill:#2563eb}</style>
+<rect width="400" height="250" rx="18" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="399" height="249" rx="18" fill="none" stroke="#2563eb" stroke-opacity=".22"/>
+
+<text x="20" y="30" class="s b c">DFT / TD-DFT excited-state mapping</text>
+<polygon points="89.1,136.0 70.0,147.0 50.9,136.0 50.9,114.0 70.0,103.0 89.1,114.0" fill="#fff" stroke="#475569" stroke-width="2.2"/><polygon points="137.1,136.0 118.0,147.0 98.9,136.0 98.9,114.0 118.0,103.0 137.1,114.0" fill="#fff" stroke="#475569" stroke-width="2.2"/><line x1="140" y1="125" x2="152" y2="125" stroke="#475569" stroke-width="2.2"/><polygon points="193.1,136.0 174.0,147.0 154.9,136.0 154.9,114.0 174.0,103.0 193.1,114.0" fill="#fff" stroke="#475569" stroke-width="2.2"/>
+<ellipse cx="70" cy="114" rx="9" ry="12" fill="#ec4899" fill-opacity=".55"/><ellipse cx="70" cy="136" rx="9" ry="12" fill="#ec4899" fill-opacity=".25"/><ellipse cx="118" cy="116.2" rx="7.2" ry="9.600000000000001" fill="#ec4899" fill-opacity=".55"/><ellipse cx="118" cy="133.8" rx="7.2" ry="9.600000000000001" fill="#ec4899" fill-opacity=".25"/><ellipse cx="174" cy="114" rx="9" ry="12" fill="#2563eb" fill-opacity=".55"/><ellipse cx="174" cy="136" rx="9" ry="12" fill="#2563eb" fill-opacity=".25"/>
+<text x="94" y="172" text-anchor="middle" class="xs">donor</text><text x="94" y="187" text-anchor="middle" class="xs b" style="fill:#db2777">HOMO</text>
+<text x="174" y="172" text-anchor="middle" class="xs">acceptor</text><text x="174" y="187" text-anchor="middle" class="xs b" style="fill:#2563eb">LUMO</text>
+<text x="122" y="212" text-anchor="middle" class="xs">charge-transfer excited state</text>
+<line x1="230" y1="215" x2="380" y2="215" stroke="#1e1040" stroke-width="2.5"/><text x="375" y="232" class="s b" text-anchor="end">S₀</text>
+<line x1="235" y1="82" x2="295" y2="82" stroke="#2563eb" stroke-width="3"/><text x="265" y="74" text-anchor="middle" class="s b c">S₁</text>
+<line x1="315" y1="100" x2="375" y2="100" stroke="#db2777" stroke-width="3"/><text x="345" y="92" text-anchor="middle" class="s b" style="fill:#db2777">T₁</text>
+<path d="M297,86 C305,86 307,96 313,98" fill="none" stroke="#64748b" stroke-width="1.6" marker-end="url(#ag)" marker-start="url(#ag)"/>
+<text x="305" y="128" text-anchor="middle" class="xs">ΔE<tspan font-size="8" dy="3">ST</tspan><tspan dy="-3">, SOC</tspan></text>
+<line x1="265" y1="88" x2="265" y2="208" stroke="#2563eb" stroke-width="1.6" stroke-dasharray="4 4" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="272" y="160" class="xs">absorption /</text><text x="272" y="175" class="xs">emission (f, λ)</text>
+</svg>
