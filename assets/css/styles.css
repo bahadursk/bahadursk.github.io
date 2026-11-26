@@ -100,9 +100,9 @@ ul,ol{margin:0;padding-left:1.2rem}
 }
 .primary-nav{display:flex;align-items:center;gap:.1rem;flex-wrap:wrap}
 .primary-nav a{
-  font-family:'Inter',sans-serif;font-size:.93rem;font-weight:500;
+  font-family:'Inter',sans-serif;font-size:.92rem;font-weight:500;
   color:var(--ink-soft);letter-spacing:.01em;
-  padding:.6rem .85rem;border-radius:999px;border-bottom:2px solid transparent;
+  padding:.6rem .72rem;border-radius:999px;border-bottom:2px solid transparent;
   transition:color .18s ease, border-color .18s ease, background .18s ease;
 }
 .primary-nav a:hover{
@@ -593,6 +593,9 @@ ul,ol{margin:0;padding-left:1.2rem}
 .accent-soft{color:#7c3aed}
 
 /* ── RESPONSIVE ───────────────────────────────────────────── */
+@media (min-width:781px){
+  .primary-nav a{padding:.55rem .55rem;font-size:.88rem}
+}
 @media (max-width:1080px){
   .pillar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .themes-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -659,3 +662,18 @@ ul,ol{margin:0;padding-left:1.2rem}
   .page-hero-figure figcaption{position:static;margin-top:12px}
 }
 
+
+/* ── TEACHING ─────────────────────────────────────────────── */
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:1rem}
+.course-card{background:rgba(255,255,255,.7);border:1px solid rgba(167,139,250,.22);border-radius:18px;padding:1.4rem 1.5rem;box-shadow:0 10px 30px -22px rgba(76,29,149,.4)}
+.course-card h3{font-family:'Cormorant Garamond',serif;font-size:1.5rem;line-height:1.2;margin:.2rem 0 .5rem;color:var(--ink)}
+.course-code{font-family:'Inter',sans-serif;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);font-weight:600;margin:0}
+.course-meta{font-family:'Inter',sans-serif;font-size:.85rem;color:var(--muted);margin:0 0 .8rem}
+.course-card ul{margin:0;padding-left:1.1rem;color:var(--ink-soft)}
+.course-card li{margin:.35rem 0}
+.book-grid{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:56px;align-items:center}
+.book-cover{margin:0}
+.book-cover img{display:block;width:100%;height:auto;border-radius:10px;box-shadow:0 24px 48px -24px rgba(30,16,64,.55)}
+.book-strip .book-grid{grid-template-columns:minmax(0,220px) minmax(0,1fr)}
+@media (max-width:1080px){.course-grid{grid-template-columns:1fr}}
+@media (max-width:780px){.book-grid,.book-strip .book-grid{grid-template-columns:1fr;gap:28px}.book-cover{max-width:240px}}
