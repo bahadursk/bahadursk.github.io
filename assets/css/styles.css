@@ -410,11 +410,13 @@ ul,ol{margin:0;padding-left:1.2rem}
 
 /* ── TIMELINE ─────────────────────────────────────────────── */
 .timeline-list{list-style:none;padding:0;margin:1.5rem 0 0;border-top:1px solid rgba(167,139,250,.18)}
-.tl-item{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:1.5rem 0;border-bottom:1px solid rgba(167,139,250,.18)}
+.tl-item{display:grid;grid-template-columns:200px 1fr 150px;gap:32px;align-items:start;padding:1.5rem 0;border-bottom:1px solid rgba(167,139,250,.18)}
 .tl-period{font-family:'Inter',sans-serif;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maroon);font-weight:600;margin:.25rem 0 0}
 .tl-body h3{font-family:'Cormorant Garamond',serif;font-size:1.55rem;margin:0 0 .25rem;color:var(--ink)}
 .tl-place{font-style:italic;color:var(--muted);margin:0 0 .4rem}
 .tl-body p:last-child{color:var(--ink-soft);margin:0}
+.tl-logo{margin:0;justify-self:end;display:flex;align-items:center;justify-content:center;width:150px;height:84px;padding:10px 14px;background:#fff;border-radius:14px;border:1px solid rgba(167,139,250,.22);box-shadow:0 8px 22px -16px rgba(76,29,149,.4)}
+.tl-logo img{max-width:100%;max-height:100%;object-fit:contain;display:block}
 
 /* ── INFO STRIP ───────────────────────────────────────────── */
 .info-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
@@ -633,6 +635,7 @@ ul,ol{margin:0;padding-left:1.2rem}
   .news-list li{gap:6px}
   .year-marker{position:static;font-size:2rem}
   .tl-item{grid-template-columns:1fr;gap:8px}
+  .tl-logo{justify-self:start;width:120px;height:68px;order:-1}
   .member-card,.member-card-pi{grid-template-columns:1fr}
   .gallery-wall{column-count:1}
   .cta-actions{justify-content:flex-start}
