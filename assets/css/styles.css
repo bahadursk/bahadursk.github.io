@@ -679,3 +679,20 @@ ul,ol{margin:0;padding-left:1.2rem}
 @media (max-width:780px){.book-grid,.book-strip .book-grid{grid-template-columns:1fr;gap:28px}.book-cover{max-width:240px}}
 .team-grid .member-card{grid-template-columns:150px minmax(0,1fr);gap:20px}
 .team-grid .member-card h3{font-size:1.4rem;overflow-wrap:anywhere}
+
+/* ── PROFILE TIMELINE (cv-list) ───────────────────────────── */
+.cv-list{list-style:none;padding:0;margin:1.5rem 0 0;border-top:1px solid rgba(239,83,80,.45)}
+.cv-item{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:32px;align-items:center;padding:1.6rem 0;border-bottom:1px solid rgba(239,83,80,.45)}
+.cv-head{font-family:'Inter',sans-serif;font-size:1.02rem;font-weight:700;line-height:1.45;margin:0 0 .55rem;color:var(--ink)}
+.cv-role{color:#e5484d}
+.cv-head a{color:#2f3bd6}
+.cv-dates{font-family:'Inter',sans-serif;font-weight:700;font-size:.98rem;color:var(--ink);margin:0 0 .4rem}
+.cv-detail{font-style:italic;font-size:.95rem;color:var(--ink-soft);margin:0}
+.cv-detail span{font-weight:600}
+.cv-logos{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:12px}
+.cv-logos img{display:block;max-width:200px;max-height:88px;width:auto;height:auto;object-fit:contain;mix-blend-mode:multiply}
+@media (max-width:780px){
+  .cv-item{grid-template-columns:1fr;gap:14px}
+  .cv-logos{flex-direction:row;justify-content:flex-start;order:-1}
+  .cv-logos img{max-width:160px;max-height:64px}
+}
