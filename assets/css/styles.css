@@ -677,3 +677,5 @@ ul,ol{margin:0;padding-left:1.2rem}
 .book-strip .book-grid{grid-template-columns:minmax(0,220px) minmax(0,1fr)}
 @media (max-width:1080px){.course-grid{grid-template-columns:1fr}}
 @media (max-width:780px){.book-grid,.book-strip .book-grid{grid-template-columns:1fr;gap:28px}.book-cover{max-width:240px}}
+.team-grid .member-card{grid-template-columns:150px minmax(0,1fr);gap:20px}
+.team-grid .member-card h3{font-size:1.4rem;overflow-wrap:anywhere}
