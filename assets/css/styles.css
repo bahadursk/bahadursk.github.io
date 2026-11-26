@@ -428,6 +428,8 @@ ul,ol{margin:0;padding-left:1.2rem}
 .theme{border-top:2px solid rgba(124,58,237,.18);padding-top:1.4rem}
 .theme h3{font-family:'Cormorant Garamond',serif;font-size:1.55rem;margin:0 0 .55rem;line-height:1.2;color:var(--ink)}
 .theme p{color:var(--ink-soft);font-size:1rem}
+.theme-scheme{margin:0 0 1.1rem;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(76,29,149,.35)}
+.theme-scheme img{display:block;width:100%;height:auto}
 
 /* ── CAPABILITIES ─────────────────────────────────────────── */
 .cap-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:60px}

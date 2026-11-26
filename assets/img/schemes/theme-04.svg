@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="t d">
+<title id="t">Molecular vibrations and excited-state engineering</title><desc id="d">Ground and excited-state potential energy curves. A rigid scaffold limits geometric distortion and vibrational coupling, so radiative decay with photon emission outcompetes non-radiative decay.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fff4e0"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#d97706"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/></marker>
+</defs>
+<style>text{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;fill:#1e1040}.s{font-size:13px}.xs{font-size:11.5px;fill:#5b4a7a}.b{font-weight:700}.c{fill:#d97706}</style>
+<rect width="400" height="250" rx="18" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="399" height="249" rx="18" fill="none" stroke="#d97706" stroke-opacity=".22"/>
+
+<text x="20" y="30" class="s b c">Rigidify to favour k<tspan font-size="9" dy="3">r</tspan><tspan dy="-3"> over k</tspan><tspan font-size="9" dy="3">nr</tspan></text>
+<path d="M60,140 Q130,330 200,140" fill="none" stroke="#1e1040" stroke-width="2.5"/><text x="44" y="150" class="s b">S₀</text>
+<path d="M90,40 Q148,180 206,40" fill="none" stroke="#d97706" stroke-width="2.5"/><text x="96" y="60" class="s b c">S₁</text>
+<line x1="90" y1="195" x2="170" y2="195" stroke="#94a3b8" stroke-width="1"/><line x1="78" y1="180" x2="182" y2="180" stroke="#94a3b8" stroke-width="1"/><line x1="70" y1="165" x2="190" y2="165" stroke="#94a3b8" stroke-width="1"/>
+<line x1="148" y1="113" x2="132" y2="232" stroke="#d97706" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M156,150 q6,-6 12,0 t12,0 t12,0 t12,0" fill="none" stroke="#d97706" stroke-width="2" marker-end="url(#ar)"/>
+<text x="212" y="146" class="s b c">hν</text><text x="118" y="140" class="xs b" text-anchor="end">k<tspan font-size="8" dy="3">r</tspan></text>
+<path d="M150,112 c20,10 -10,20 10,30 c20,10 -10,20 10,30" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="3 3"/>
+<text x="186" y="200" class="xs">k<tspan font-size="8" dy="3">nr</tspan></text><text x="186" y="214" class="xs">(vibrations)</text>
+<rect x="258" y="70" width="128" height="140" rx="12" fill="#fff" stroke="#d97706" stroke-opacity=".5"/>
+<polygon points="306.7,123.5 292.0,132.0 277.3,123.5 277.3,106.5 292.0,98.0 306.7,106.5" fill="#fff" stroke="#d97706" stroke-width="2.2"/><polygon points="336.7,123.5 322.0,132.0 307.3,123.5 307.3,106.5 322.0,98.0 336.7,106.5" fill="#fff" stroke="#d97706" stroke-width="2.2"/><polygon points="321.7,149.5 307.0,158.0 292.3,149.5 292.3,132.5 307.0,124.0 321.7,132.5" fill="#fff" stroke="#d97706" stroke-width="2.2"/>
+<line x1="270" y1="150" x2="262" y2="160" stroke="#94a3b8" stroke-width="2"/><line x1="345" y1="150" x2="353" y2="160" stroke="#94a3b8" stroke-width="2"/>
+<text x="317" y="182" text-anchor="middle" class="xs b">rigid, fused scaffold</text>
+<text x="317" y="199" text-anchor="middle" class="xs">suppressed distortion</text>
+</svg>

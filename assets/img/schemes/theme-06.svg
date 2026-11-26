@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" role="img" aria-labelledby="t d">
+<title id="t">Hyperphosphorescence and next-generation OLEDs</title><desc id="d">An OLED stack whose emitting layer combines a phosphorescent sensitizer and a narrowband fluorescent emitter. All singlet and triplet excitons are collected by the sensitizer and passed by Förster transfer to the emitter, giving efficient, colour-pure, low roll-off emission.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fbe8ff"/></linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c026d3"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/></marker>
+</defs>
+<style>text{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;fill:#1e1040}.s{font-size:13px}.xs{font-size:11.5px;fill:#5b4a7a}.b{font-weight:700}.c{fill:#c026d3}</style>
+<rect width="400" height="250" rx="18" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="399" height="249" rx="18" fill="none" stroke="#c026d3" stroke-opacity=".22"/>
+
+<text x="20" y="30" class="s b c">Sensitized narrowband OLED emission</text>
+<rect x="30" y="58" width="120" height="24" rx="4" fill="#94a3b8"/><text x="90" y="74.0" text-anchor="middle" class="xs b" style="fill:#1e1040">Cathode</text><rect x="30" y="86" width="120" height="24" rx="4" fill="#bae6fd"/><text x="90" y="102.0" text-anchor="middle" class="xs b" style="fill:#1e1040">ETL</text><rect x="30" y="114" width="120" height="34" rx="4" fill="#f5d0fe"/><text x="90" y="135.0" text-anchor="middle" class="xs b" style="fill:#1e1040">EML</text><rect x="30" y="152" width="120" height="24" rx="4" fill="#c7d2fe"/><text x="90" y="168.0" text-anchor="middle" class="xs b" style="fill:#1e1040">HTL</text><rect x="30" y="180" width="120" height="24" rx="4" fill="#e2e8f0"/><text x="90" y="196.0" text-anchor="middle" class="xs b" style="fill:#1e1040">ITO / glass</text>
+<line x1="150" y1="131" x2="178" y2="131" stroke="#c026d3" stroke-width="1.5" stroke-dasharray="3 3"/>
+<rect x="180" y="62" width="200" height="140" rx="12" fill="#fff" stroke="#c026d3" stroke-opacity=".45"/>
+<text x="198" y="86" class="xs">25% S + 75% T excitons</text>
+<line x1="230" y1="92" x2="230" y2="110" stroke="#64748b" stroke-width="1.6" marker-end="url(#ag)"/>
+<rect x="190" y="114" width="72" height="34" rx="8" fill="#c026d3" fill-opacity=".12" stroke="#c026d3"/><text x="226" y="129" text-anchor="middle" class="xs b">phosphor</text><text x="226" y="142" text-anchor="middle" class="xs">sensitizer</text>
+<line x1="264" y1="131" x2="292" y2="131" stroke="#c026d3" stroke-width="2.5" marker-end="url(#ar)"/><text x="278" y="122" text-anchor="middle" class="xs b c">FRET</text>
+<rect x="294" y="114" width="80" height="34" rx="8" fill="#22c55e" fill-opacity=".12" stroke="#16a34a"/><text x="334" y="129" text-anchor="middle" class="xs b">narrowband</text><text x="334" y="142" text-anchor="middle" class="xs">emitter</text>
+<path d="M300,190 C320,190 326,160 335,160 C344,160 350,190 370,190" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<line x1="296" y1="191" x2="374" y2="191" stroke="#94a3b8"/>
+<text x="198" y="176" class="xs">high EQE</text><text x="198" y="192" class="xs">low roll-off</text>
+<text x="335" y="214" text-anchor="middle" class="xs">pure colour</text>
+<text x="200" y="238" text-anchor="middle" class="xs">100% exciton use · stable, efficient displays &amp; lighting</text>
+</svg>
