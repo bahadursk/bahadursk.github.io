@@ -699,3 +699,6 @@ ul,ol{margin:0;padding-left:1.2rem}
 .course-scheme{margin:-.4rem -.5rem 1rem;border-radius:14px;overflow:hidden}
 .course-scheme img{display:block;width:100%;height:auto}
 .prose-main p.lede strong{font-weight:700}
+.contact-map{position:relative;width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(30,16,64,.12)}
+.contact-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+@media (max-width:780px){.contact-map{aspect-ratio:4/3}}
