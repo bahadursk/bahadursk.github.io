@@ -44,5 +44,30 @@
     track.scrollLeft = slides[current].offsetLeft;
     track.style.scrollBehavior = '';
   });
+
+  // Grid: open a photo in the slideshow
+  document.querySelectorAll('.g-cell a[data-i]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      root.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      go(+a.dataset.i);
+      pauseFor(12000);
+    });
+  });
+  // Auto-scroll: advance every 4 s, pause while hovered, focused or touched
+  var DELAY = 4000, timer = null, hold = 0, hovering = false;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function tick() {
+    if (hovering || Date.now() < hold || document.hidden) return;
+    go(current + 1);
+  }
+  function pauseFor(ms) { hold = Date.now() + ms; }
+  if (!reduce) timer = setInterval(tick, DELAY);
+  root.addEventListener('mouseenter', function () { hovering = true; });
+  root.addEventListener('mouseleave', function () { hovering = false; pauseFor(1500); });
+  root.addEventListener('focusin', function () { hovering = true; });
+  root.addEventListener('focusout', function () { hovering = false; });
+  root.addEventListener('touchstart', function () { pauseFor(10000); }, { passive: true });
+  document.querySelector('.g-thumbs').addEventListener('click', function () { pauseFor(10000); });
   mark(0);
 })();
