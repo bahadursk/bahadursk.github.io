@@ -49,8 +49,191 @@
         </div>
       </div>
       <div class="portrait-card">
-        <div class="portrait-wrapper">
-          <img src="assets/img/profile.jpg" alt="Dr. Bahadur Sk" data-fallback="assets/img/about-visual.jpg">
+        <div class="portrait-wrapper scheme-wrapper">
+          <svg class="research-scheme" viewBox="0 0 920 712" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rs-title rs-desc">
+            <title id="rs-title">AURA Lab research themes</title>
+            <desc id="rs-desc">AURA Lab sits at the centre of a cycle of six research themes: AI/ML materials design, quantum chemical simulations, data-driven discovery, excited-state engineering, triplet management and energy transfer, and hyperphosphorescent OLEDs.</desc>
+            <defs>
+              <radialGradient id="rs-bg" cx="50%" cy="50%" r="70%">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset=".6" stop-color="#faf7ff"/>
+                <stop offset="1" stop-color="#efe7ff"/>
+              </radialGradient>
+              <linearGradient id="rs-ring" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f472b6"/>
+                <stop offset=".3" stop-color="#8b5cf6"/>
+                <stop offset=".55" stop-color="#3b82f6"/>
+                <stop offset=".8" stop-color="#22d3ee"/>
+                <stop offset="1" stop-color="#fbbf24"/>
+              </linearGradient>
+              <radialGradient id="rs-core" cx="50%" cy="45%" r="60%">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset=".75" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#f3ecff"/>
+              </radialGradient>
+              <radialGradient id="rs-halo" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#c4b5fd" stop-opacity=".55"/>
+                <stop offset=".6" stop-color="#f9a8d4" stop-opacity=".18"/>
+                <stop offset="1" stop-color="#f9a8d4" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="rs-star" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#db2777"/>
+                <stop offset=".5" stop-color="#7c3aed"/>
+                <stop offset="1" stop-color="#2563eb"/>
+              </linearGradient>
+              <filter id="rs-shadow" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#7c3aed" flood-opacity=".16"/>
+              </filter>
+            </defs>
+            <style>
+              .research-scheme .lbl{font-family:'Inter',system-ui,sans-serif;font-size:19px;font-weight:600;fill:#1e1040}
+              .research-scheme .num{font-family:'Inter',system-ui,sans-serif;font-size:13px;font-weight:700;letter-spacing:.18em}
+              .research-scheme .flow{stroke-dasharray:3 13;animation:rs-flow 6s linear infinite}
+              .research-scheme .pulse{transform-box:fill-box;transform-origin:center;animation:rs-pulse 4s ease-in-out infinite}
+              .research-scheme .ico{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+              @keyframes rs-flow{to{stroke-dashoffset:-160}}
+              @keyframes rs-pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.12);opacity:.95}}
+              @media (prefers-reduced-motion:reduce){.research-scheme .flow,.research-scheme .pulse{animation:none}}
+            </style>
+
+            <rect width="920" height="712" rx="28" fill="url(#rs-bg)"/>
+            <g transform="translate(50,6)">
+
+            <!-- soft glow behind the core -->
+            <circle cx="410" cy="360" r="190" fill="url(#rs-halo)"/>
+
+            <!-- spokes -->
+            <g stroke-width="1.6" stroke-dasharray="2 6" stroke-linecap="round" opacity=".7">
+              <line x1="410" y1="360" x2="410" y2="150" stroke="#7c3aed"/>
+              <line x1="410" y1="360" x2="591.9" y2="255" stroke="#2563eb"/>
+              <line x1="410" y1="360" x2="591.9" y2="465" stroke="#0891b2"/>
+              <line x1="410" y1="360" x2="410" y2="570" stroke="#d97706"/>
+              <line x1="410" y1="360" x2="228.1" y2="465" stroke="#db2777"/>
+              <line x1="410" y1="360" x2="228.1" y2="255" stroke="#c026d3"/>
+            </g>
+
+            <!-- the cycle ring -->
+            <circle cx="410" cy="360" r="210" fill="none" stroke="url(#rs-ring)" stroke-width="5" opacity=".9"/>
+            <circle class="flow" cx="410" cy="360" r="210" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- direction arrows (clockwise) -->
+            <g fill="#7c3aed">
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(515,178.1) rotate(30)" fill="#6366f1"/>
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(620,360) rotate(90)" fill="#0ea5e9"/>
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(515,541.9) rotate(150)" fill="#f59e0b"/>
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(305,541.9) rotate(210)" fill="#ec4899"/>
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(200,360) rotate(270)" fill="#d946ef"/>
+              <path d="M-7,-7 L8,0 L-7,7 Z" transform="translate(305,178.1) rotate(330)" fill="#a855f7"/>
+            </g>
+
+            <!-- core -->
+            <g filter="url(#rs-shadow)">
+              <circle cx="410" cy="360" r="112" fill="url(#rs-core)" stroke="url(#rs-ring)" stroke-width="3"/>
+            </g>
+            <circle cx="410" cy="360" r="100" fill="none" stroke="#c4b5fd" stroke-width="1" stroke-dasharray="1 5"/>
+            <!-- emission sparkle -->
+            <g transform="translate(410,305)">
+              <path d="M0,-24 C2,-7 7,-2 24,0 C7,2 2,7 0,24 C-2,7 -7,2 -24,0 C-7,-2 -2,-7 0,-24 Z" fill="url(#rs-star)"/>
+              <circle r="30" fill="none" stroke="#f9a8d4" stroke-width="1.2" class="pulse"/>
+            </g>
+            <text x="410" y="378" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-size="44" font-weight="700" fill="#1e1040" textLength="186" lengthAdjust="spacingAndGlyphs">AURA Lab</text>
+            <text x="410" y="406" text-anchor="middle" font-family="'Inter',system-ui,sans-serif" font-size="11.5" font-weight="600" letter-spacing=".22em" fill="#6b4fa0">DATA · THEORY · LIGHT</text>
+
+            <!-- ===== Node 01: AI/ML (top) ===== -->
+            <g transform="translate(410,150)">
+              <circle r="54" fill="#7c3aed" fill-opacity=".14" class="pulse"/>
+              <circle r="44" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/>
+              <g class="ico" stroke="#7c3aed">
+                <path d="M-14,-9 L0,-14 M-14,-9 L0,0 M-14,-9 L0,14 M-14,9 L0,-14 M-14,9 L0,0 M-14,9 L0,14 M0,-14 L14,0 M0,0 L14,0 M0,14 L14,0" stroke-width="1.4" opacity=".6"/>
+              </g>
+              <g fill="#7c3aed">
+                <circle cx="-14" cy="-9" r="3.6"/><circle cx="-14" cy="9" r="3.6"/>
+                <circle cx="0" cy="-14" r="3.6"/><circle cx="0" cy="0" r="3.6"/><circle cx="0" cy="14" r="3.6"/>
+                <circle cx="14" cy="0" r="4.2" fill="#db2777"/>
+              </g>
+            </g>
+            <text class="num" x="410" y="50" text-anchor="middle" fill="#7c3aed">01</text>
+            <text class="lbl" x="410" y="72" text-anchor="middle">AI/ML Materials Design</text>
+
+            <!-- ===== Node 02: Quantum chemistry (upper right) ===== -->
+            <g transform="translate(591.9,255)">
+              <circle r="54" fill="#2563eb" fill-opacity=".14" class="pulse" style="animation-delay:.6s"/>
+              <circle r="44" fill="#fff" stroke="#2563eb" stroke-width="2.5"/>
+              <g class="ico" stroke="#2563eb" stroke-width="2">
+                <ellipse rx="18" ry="7"/>
+                <ellipse rx="18" ry="7" transform="rotate(60)"/>
+                <ellipse rx="18" ry="7" transform="rotate(120)"/>
+              </g>
+              <circle r="3.8" fill="#db2777"/>
+            </g>
+            <text class="num" x="652" y="232" fill="#2563eb">02</text>
+            <text class="lbl" x="652" y="254">Quantum Chemical</text>
+            <text class="lbl" x="652" y="277">Simulations</text>
+
+            <!-- ===== Node 03: Data-driven discovery (lower right) ===== -->
+            <g transform="translate(591.9,465)">
+              <circle r="54" fill="#0891b2" fill-opacity=".14" class="pulse" style="animation-delay:1.2s"/>
+              <circle r="44" fill="#fff" stroke="#0891b2" stroke-width="2.5"/>
+              <path class="ico" stroke="#0891b2" d="M-17,-17 V16 H17"/>
+              <path class="ico" stroke="#0891b2" stroke-width="1.6" stroke-dasharray="3 3" d="M-12,10 L14,-14"/>
+              <g fill="#0891b2">
+                <circle cx="-9" cy="8" r="2.4"/><circle cx="-5" cy="2" r="2.4"/><circle cx="-1" cy="7" r="2.4"/>
+                <circle cx="3" cy="-3" r="2.4"/><circle cx="7" cy="-1" r="2.4"/><circle cx="8" cy="-9" r="2.4"/>
+              </g>
+              <circle cx="12" cy="-13" r="3.6" fill="#f59e0b"/>
+            </g>
+            <text class="num" x="652" y="442" fill="#0891b2">03</text>
+            <text class="lbl" x="652" y="464">Data-Driven</text>
+            <text class="lbl" x="652" y="487">Discovery</text>
+
+            <!-- ===== Node 04: Excited-state engineering (bottom) ===== -->
+            <g transform="translate(410,570)">
+              <circle r="54" fill="#d97706" fill-opacity=".14" class="pulse" style="animation-delay:1.8s"/>
+              <circle r="44" fill="#fff" stroke="#d97706" stroke-width="2.5"/>
+              <g class="ico" stroke="#d97706">
+                <path d="M-17,15 H17"/>
+                <path d="M-17,-13 H17"/>
+                <path d="M-9,13 V-9 M-12.5,-5 L-9,-10 L-5.5,-5" stroke="#7c3aed"/>
+                <path d="M8,-11 V11 M4.5,7 L8,12 L11.5,7" stroke="#db2777"/>
+              </g>
+            </g>
+            <text class="num" x="410" y="640" text-anchor="middle" fill="#d97706">04</text>
+            <text class="lbl" x="410" y="666" text-anchor="middle">Excited-State Engineering</text>
+
+            <!-- ===== Node 05: Triplet management (lower left) ===== -->
+            <g transform="translate(228.1,465)">
+              <circle r="54" fill="#db2777" fill-opacity=".14" class="pulse" style="animation-delay:2.4s"/>
+              <circle r="44" fill="#fff" stroke="#db2777" stroke-width="2.5"/>
+              <g class="ico" stroke="#db2777">
+                <path d="M-18,-10 H-4"/>
+                <path d="M4,0 H18"/>
+                <path d="M-18,15 H18"/>
+                <path d="M-9,-13 Q2,-24 11,-4" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="3 3"/>
+                <path d="M7,-7 L11,-3 L13,-9" stroke="#7c3aed" stroke-width="1.8"/>
+                <path d="M11,3 V12 M8,9 L11,13 L14,9"/>
+              </g>
+            </g>
+            <text class="num" x="168" y="442" text-anchor="end" fill="#db2777">05</text>
+            <text class="lbl" x="168" y="464" text-anchor="end">Triplet Management</text>
+            <text class="lbl" x="168" y="487" text-anchor="end">&amp; Energy Transfer</text>
+
+            <!-- ===== Node 06: Hyperphosphorescent OLEDs (upper left) ===== -->
+            <g transform="translate(228.1,255)">
+              <circle r="54" fill="#c026d3" fill-opacity=".14" class="pulse" style="animation-delay:3s"/>
+              <circle r="44" fill="#fff" stroke="#c026d3" stroke-width="2.5"/>
+              <rect x="-16" y="-4" width="32" height="5" rx="2" fill="#c4b5fd"/>
+              <rect x="-16" y="2" width="32" height="5" rx="2" fill="#86efac"/>
+              <rect x="-16" y="8" width="32" height="5" rx="2" fill="#fde68a"/>
+              <rect x="-16" y="14" width="32" height="4" rx="2" fill="#93c5fd"/>
+              <g class="ico" stroke="#c026d3" stroke-width="2">
+                <path d="M0,-9 V-19 M-9,-8 L-14,-15 M9,-8 L14,-15"/>
+              </g>
+            </g>
+            <text class="num" x="168" y="232" text-anchor="end" fill="#c026d3">06</text>
+            <text class="lbl" x="168" y="254" text-anchor="end">Hyperphosphorescent</text>
+            <text class="lbl" x="168" y="277" text-anchor="end">OLEDs</text>
+            </g>
+          </svg>
         </div>
         <div class="portrait-caption">
           <span class="portrait-role">Assistant Professor (Chemistry)</span>

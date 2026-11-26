@@ -229,6 +229,9 @@ ul,ol{margin:0;padding-left:1.2rem}
   background:linear-gradient(135deg,#fce7f3,#ede9fe,#dbeafe);
 }
 .portrait-wrapper img{width:100%;height:100%;object-fit:cover;display:block;}
+/* Research scheme shown in place of the portrait: show the whole figure, no cropping */
+.portrait-wrapper.scheme-wrapper{min-height:0;display:block;background:none}
+.portrait-wrapper.scheme-wrapper svg{display:block;width:100%;height:auto}
 .portrait-placeholder{
   position:absolute;inset:0;display:flex;flex-direction:column;
   align-items:center;justify-content:center;gap:.8rem;padding:2rem;
